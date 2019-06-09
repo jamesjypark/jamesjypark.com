@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./Home";
-import Code from "./Code";
-import Design from "./Design";
+import Home from "../Components/Home/Home";
+import Code from "../Components/Code/Code";
+import Design from "../Components/Design/Design";
 
 class Main extends React.Component {
   state = {};
