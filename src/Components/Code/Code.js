@@ -7,6 +7,8 @@ import RealTime from "../Projects/RealTime/RealTime";
 function CodeList() {
   return (
     <ul>
+      <h1>Code</h1>
+
       <li>
         <Link to="/code/meditap">Meditap</Link>
       </li>
@@ -24,7 +26,6 @@ class Code extends React.Component {
   render() {
     return (
       <div>
-        <h1>Code</h1>
         <Switch>
           <Route exact path="/code" component={CodeList} />
           <Route path="/code/meditap" component={Meditap} />
