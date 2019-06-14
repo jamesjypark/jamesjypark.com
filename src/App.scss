@@ -1,0 +1,41 @@
+.App {
+  font-family: "Avenir";
+
+  // text types
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #aaaaaa;
+  }
+
+  .subheader1 {
+    font-family: "Merriweather";
+    font-size: 40px;
+    font-weight: bold;
+    color: #393e46;
+  }
+
+  .basetext1 {
+    font-size: 20px;
+    color: #747474;
+    &.bold {
+      font-weight: bold;
+    }
+    &.medium {
+      font-weight: normal;
+    }
+    &.book {
+      font-weight: lighter;
+    }
+  }
+}
+
+@font-face {
+  font-family: Avenir;
+  src: "/assets/avenir-lt-std-cufonts-webfont";
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: "/assets/Merriweather";
+}
