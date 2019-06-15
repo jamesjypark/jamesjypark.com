@@ -6,7 +6,7 @@ import AutonomousRov from "../Projects/AutonomousRov/AutonomousRov";
 function DesignList() {
   return (
     <ul>
-      <h1>Design</h1>
+      <div className="title">design</div>
       <li>
         <Link to="/design/daily-ui">Daily UI</Link>
       </li>

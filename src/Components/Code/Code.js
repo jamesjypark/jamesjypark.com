@@ -7,7 +7,7 @@ import RealTime from "../Projects/RealTime/RealTime";
 function CodeList() {
   return (
     <ul>
-      <h1>Code</h1>
+      <div className="title">code</div>
 
       <li>
         <Link to="/code/meditap">Meditap</Link>

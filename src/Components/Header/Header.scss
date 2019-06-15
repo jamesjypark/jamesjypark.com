@@ -1,5 +1,5 @@
 .Header {
-  width: 70vw;
+  width: 58vw;
   max-width: 1200px;
   height: 10vh;
   display: flex;
@@ -7,14 +7,30 @@
   margin-left: auto;
   margin-right: auto;
 
+  text-decoration: none;
   font-size: 18px;
+  font-weight: medium;
   color: #393e46;
 
   > * {
-    margin-right: 3vw;
+    margin-right: 2vw;
   }
 
   div {
     margin-left: 3vw;
+  }
+
+  img {
+    height: 30px;
+    width: auto;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #393e46;
+  }
+  .active {
+    color: #1964a4;
+    font-weight: bold;
   }
 }

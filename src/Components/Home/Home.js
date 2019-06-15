@@ -1,10 +1,21 @@
 import React from "react";
 
+import "./Home.scss";
+
+import Background from "../../assets/background.png";
+import Portrait from "../../assets/portrait.png";
+import Blocker from "../../assets/blocker.png";
+
 class Home extends React.Component {
   render() {
     return (
       <div className="basetext1 medium">
         <div className="title">about me</div>
+        <div className="Portrait">
+          <img src={Blocker} className="Blocker" />
+          <img src={Portrait} className="Portrait" />
+          <img src={Background} className="Background" />
+        </div>
         <div className="subheader1">James Juyoung Park</div>
         <div>
           Software Engineering Student at the{" "}
