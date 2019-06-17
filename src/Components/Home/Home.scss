@@ -1,13 +1,32 @@
-.Portrait {
-  position: relative;
-  top: 0;
-  left: 0;
-  img:nth-child(1) {
-    z-index: 5;
-    position: absolute;
+.Home {
+  .Portrait {
+    position: relative;
+    top: 0;
+    left: 0;
+    img {
+      width: 45vw;
+    }
+    img:nth-child(1) {
+      z-index: 5;
+      position: absolute;
+    }
+    img:nth-child(2) {
+      position: absolute;
+      left: auto;
+    }
   }
-  img:nth-child(2) {
-    position: absolute;
-    margin-left: 65px;
+  .subheader1 {
+    margin: 20px;
+  }
+  .description {
+    margin: 7px;
+  }
+  .links {
+    margin-top: 40px;
+    > * {
+      margin-top: 10px;
+      text-decoration: none;
+      color: #393e46;
+    }
   }
 }
