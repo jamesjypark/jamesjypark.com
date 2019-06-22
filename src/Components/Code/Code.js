@@ -3,22 +3,25 @@ import { Link, Switch, Route } from "react-router-dom";
 import Meditap from "../Projects/Meditap/Meditap";
 import Askey from "../Projects/Askey/Askey";
 import RealTime from "../Projects/RealTime/RealTime";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 function CodeList() {
   return (
-    <ul>
+    <div>
       <div className="title">code</div>
 
-      <li>
-        <Link to="/code/meditap">Meditap</Link>
-      </li>
-      <li>
-        <Link to="/code/askey">ASKEY</Link>
-      </li>
-      <li>
-        <Link to="/code/real-time-collaboration">Real-time Collaboration</Link>
-      </li>
-    </ul>
+      <Link to="/code/meditap">
+        <ProjectCard />
+      </Link>
+
+      {/* <Link to="/code/askey">
+        <ProjectCard />
+      </Link>
+
+      <Link to="/code/real-time-collaboration">
+        <ProjectCard />
+      </Link> */}
+    </div>
   );
 }
 

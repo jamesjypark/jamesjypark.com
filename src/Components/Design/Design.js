@@ -5,7 +5,7 @@ import HangeulPrinting from "../Projects/HangeulPrinting/HangeulPrinting";
 import AutonomousRov from "../Projects/AutonomousRov/AutonomousRov";
 function DesignList() {
   return (
-    <ul>
+    <div>
       <div className="title">design</div>
       <li>
         <Link to="/design/daily-ui">Daily UI</Link>
@@ -16,7 +16,7 @@ function DesignList() {
       <li>
         <Link to="/design/autonomous-rov">Autonomous Underwater Vehicle</Link>
       </li>
-    </ul>
+    </div>
   );
 }
 

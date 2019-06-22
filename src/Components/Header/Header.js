@@ -10,15 +10,17 @@ class Header extends React.Component {
         <NavLink to="/" activeClassName="test" activeClassName="link">
           <img src={logo} />
         </NavLink>
-        <NavLink to="/code" className="link" activeClassName="active">
-          code
-        </NavLink>
-        <NavLink to="/design" className="link" activeClassName="active">
-          design
-        </NavLink>
-        <NavLink exact to="/" className="link" activeClassName="active">
-          about me
-        </NavLink>
+        <div className="links">
+          <NavLink to="/code" className="link" activeClassName="active">
+            code
+          </NavLink>
+          <NavLink to="/design" className="link" activeClassName="active">
+            design
+          </NavLink>
+          <NavLink exact to="/" className="link" activeClassName="active">
+            about me
+          </NavLink>
+        </div>
       </div>
     );
   }

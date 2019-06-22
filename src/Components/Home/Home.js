@@ -5,17 +5,33 @@ import "./Home.scss";
 import Background from "../../assets/background.png";
 import Portrait from "../../assets/portrait.png";
 import Blocker from "../../assets/blocker.png";
+import simpleParallax from "simple-parallax-js";
 
 class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.portraitRef = React.createRef();
+  }
+  createParallax = () => {
+    let image = this.portraitRef.current;
+    new simpleParallax(image, {
+      overflow: true,
+      orientation: "left"
+    });
+  };
   render() {
     return (
       <div className="Home">
         <div className="basetext1 medium">
           <div className="title">about me</div>
           <div className="Portrait">
-            <img src={Blocker} className="Blocker" />
-            <img src={Portrait} className="Portrait" />
-            <img src={Background} className="Background" />
+            <img src={Blocker} />
+            <img
+              ref={this.portraitRef}
+              src={Portrait}
+              onLoad={this.createParallax}
+            />
+            <img src={Background} />
           </div>
           <div className="subheader1">James Juyoung Park</div>
           <div className="description">
