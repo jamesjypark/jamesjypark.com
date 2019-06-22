@@ -1,6 +1,9 @@
 .App {
   font-family: "Avenir";
 
+  .link {
+    text-decoration: none;
+  }
   // text types
   .title {
     font-size: 50px;
@@ -18,8 +21,28 @@
     color: #393e46;
   }
 
+  .subheader2 {
+    font-size: 40px;
+    font-weight: medium;
+    color: #393e46;
+  }
+
   .basetext1 {
     font-size: 20px;
+    color: #747474;
+    &.bold {
+      font-weight: bold;
+    }
+    &.medium {
+      font-weight: normal;
+    }
+    &.book {
+      font-weight: lighter;
+    }
+  }
+
+  .basetext2 {
+    font-size: 13px;
     color: #747474;
     &.bold {
       font-weight: bold;

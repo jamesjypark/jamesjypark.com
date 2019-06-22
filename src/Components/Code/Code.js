@@ -1,6 +1,7 @@
 import React from "react";
-import { Link, Switch, Route } from "react-router-dom";
+import { NavLink, Switch, Route } from "react-router-dom";
 import Meditap from "../Projects/Meditap/Meditap";
+import MeditapJSON from "../Projects/Meditap/Meditap.json";
 import Askey from "../Projects/Askey/Askey";
 import RealTime from "../Projects/RealTime/RealTime";
 import ProjectCard from "../ProjectCard/ProjectCard";
@@ -10,17 +11,17 @@ function CodeList() {
     <div>
       <div className="title">code</div>
 
-      <Link to="/code/meditap">
-        <ProjectCard />
-      </Link>
+      <NavLink className="link" to="/code/meditap">
+        <ProjectCard {...MeditapJSON} />
+      </NavLink>
 
-      {/* <Link to="/code/askey">
+      {/* <NavLink to="/code/askey">
         <ProjectCard />
-      </Link>
+      </NavLink>
 
-      <Link to="/code/real-time-collaboration">
+      <NavLink to="/code/real-time-collaboration">
         <ProjectCard />
-      </Link> */}
+      </NavLink> */}
     </div>
   );
 }

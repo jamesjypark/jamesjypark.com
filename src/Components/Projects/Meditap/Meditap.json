@@ -1,0 +1,8 @@
+{
+  "title": "Meditap",
+  "duration": "Spring 2019 - Present",
+  "technology": "React Native, Node, SQLite3 on AWS EC2",
+  "summary": [
+    "Medical application to reduce maternal mortality in Nigeria. Currently under development with the Canadian Network for International Surgery"
+  ]
+}
