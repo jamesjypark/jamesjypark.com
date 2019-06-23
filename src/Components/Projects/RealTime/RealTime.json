@@ -1,0 +1,9 @@
+{
+  "title": "Real-time Collaboration",
+  "duration": "2019 Summer",
+  "technology": "WebSocket, Node, Express, SQLite3",
+  "summary": [
+    "Included in 5.1 Release Version of WebViewer",
+    "Developed at PDFTron Systems"
+  ]
+}

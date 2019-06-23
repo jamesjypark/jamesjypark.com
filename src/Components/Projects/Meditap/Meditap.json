@@ -1,8 +1,10 @@
 {
   "title": "Meditap",
-  "duration": "Spring 2019 - Present",
+  "duration": "2019 Spring - Present",
   "technology": "React Native, Node, SQLite3 on AWS EC2",
   "summary": [
-    "Medical application to reduce maternal mortality in Nigeria. Currently under development with the Canadian Network for International Surgery"
+    "Anticipated project launch in Nigeria in August 2019",
+    "Project acquired by the Canadian Network for International Surgery",
+    "Joule Healthcare Innovation Award for Biggest Potential Impact"
   ]
 }
