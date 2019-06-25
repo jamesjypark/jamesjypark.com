@@ -4,6 +4,7 @@ import Meditap from "../Projects/Meditap/Meditap";
 import Askey from "../Projects/Askey/Askey";
 import RealTime from "../Projects/RealTime/RealTime";
 import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectPage from "../ProjectPage/ProjectPage";
 
 import MeditapJSON from "../Projects/Meditap/Meditap.json";
 import AskeyJSON from "../Projects/Askey/Askey.json";
@@ -38,9 +39,18 @@ class Code extends React.Component {
       <div>
         <Switch>
           <Route exact path="/code" component={CodeList} />
-          <Route path="/code/meditap" component={Meditap} />
-          <Route path="/code/askey" component={Askey} />
-          <Route path="/code/real-time-collaboration" component={RealTime} />
+          <Route
+            path="/code/meditap"
+            render={() => <ProjectPage {...MeditapJSON} />}
+          />
+          <Route
+            path="/code/askey"
+            render={() => <ProjectPage {...AskeyJSON} />}
+          />
+          <Route
+            path="/code/real-time-collaboration"
+            render={() => <ProjectPage {...RealTimeJSON} />}
+          />
         </Switch>
       </div>
     );

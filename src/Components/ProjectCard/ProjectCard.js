@@ -12,14 +12,14 @@ class ProjectCard extends React.Component {
         </div>
         <div className="text">
           <div className="subheader2">{title}</div>
-          <div className="basetext2 book">{duration}</div>
-          <div className="basetext2 book">{technology}</div>
+          <div className="basetext3 book">{duration}</div>
+          <div className="basetext3 book">{technology}</div>
           <div className="summary">
             {summary.map(text => (
-              <div className="basetext2 book">{text}</div>
+              <div className="basetext3 book">{text}</div>
             ))}
             {summary.forEach(summary => {
-              return <div className="basetext2 book">{summary}</div>;
+              return <div className="basetext3 book">{summary}</div>;
             })}
           </div>
         </div>

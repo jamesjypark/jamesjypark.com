@@ -42,6 +42,20 @@
   }
 
   .basetext2 {
+    font-size: 16px;
+    color: #747474;
+    &.bold {
+      font-weight: bold;
+    }
+    &.medium {
+      font-weight: normal;
+    }
+    &.book {
+      font-weight: lighter;
+    }
+  }
+
+  .basetext3 {
     font-size: 13px;
     color: #747474;
     &.bold {

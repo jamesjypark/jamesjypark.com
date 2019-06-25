@@ -1,0 +1,22 @@
+.ProjectPage {
+  .title-container {
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+  }
+  .margin-container {
+    padding: 0.5vw;
+  }
+  .paragraph-container {
+    width: 100%;
+    padding: 1vw;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 1.7;
+  }
+  img {
+    width: 30%;
+    // width: auto;
+    margin: 3vw;
+  }
+}
