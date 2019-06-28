@@ -25,7 +25,21 @@ class ProjectPage extends React.Component {
               <div className="basetext2 medium">{item.text}</div>
             </div>
           );
-
+        case "team":
+          return (
+            <div className="paragraph-container right">
+              <div className="basetext1 bold">Team</div>
+              {item.list.map(item => (
+                <div className="basetext2 medium">{item}</div>
+              ))}
+            </div>
+          );
+        case "subheader":
+          return (
+            <div className="margin-container left">
+              <div className="subheader2">{item.text}</div>
+            </div>
+          );
         case "paragraph":
           return (
             <div className="paragraph-container">

@@ -14,29 +14,19 @@
     },
     {
       "type": "duration",
-      "text": "2019 Spring - Present"
+      "text": "2019 Spring — Present"
     },
     {
       "type": "technology",
       "text": "React Native, Node, SQLite3 on AWS EC2, Firebase"
     },
     {
+      "type": "image",
+      "name": "meditap1"
+    },
+    {
       "type": "paragraph",
       "text": "Meditap is a cross-platform application leveraging NFC (near-field communication) technology to make medical records accessible for marginalized populations. Meditap was acquired by the Canadian Network for International Surgery in June 2019 and is currently under development as part of the Community Maternal Danger Score project aimed at reducing maternal mortality in Nigeria."
-    },
-    {
-      "type": "image",
-      "address": "TODO"
-    },
-    {
-      "type": "team",
-      "list": [
-        "Brian Cheng - Designer",
-        "Adelia Jacobs - Dietetics",
-        "Vishu Karthik - Medical",
-        "Azzra Mangalji - Medical",
-        "James Park - Software Engineering"
-      ]
     },
     {
       "type": "subheader",
@@ -69,6 +59,16 @@
     {
       "type": "paragraph",
       "text": "Throughout the development of the project, I worked very closely with Dr. Lett to make Meditap into a practical solution that can save lives. As a result, I spent countless nights refactoring (and completely breaking) the app in order to meet the feature requests from Dr. Lett. From this experience, I was forced to learn design patterns to build robust and flexible code modules."
+    },
+    {
+      "type": "team",
+      "list": [
+        "Brian Cheng - Designer",
+        "Adelia Jacobs - Dietetics",
+        "Vishu Karthik - Medical",
+        "Azzra Mangalji - Medical",
+        "James Park - Software Engineering"
+      ]
     }
   ]
 }
