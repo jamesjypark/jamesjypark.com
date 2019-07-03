@@ -47,6 +47,7 @@ class Home extends React.Component {
                 href="https://drive.google.com/file/d/1z5UOpLnqH-6NkjqhB9vwLI3ty1EcMGl2/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="link"
               >
                 Resume
               </a>
@@ -56,6 +57,7 @@ class Home extends React.Component {
                 href="https://github.com/jamesjypark"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="link"
               >
                 Github
               </a>
@@ -65,6 +67,7 @@ class Home extends React.Component {
                 href="https://dribbble.com/jamespark"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="link"
               >
                 Dribbble
               </a>
@@ -74,6 +77,7 @@ class Home extends React.Component {
                 href="https://www.linkedin.com/jamesjypark"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="link"
               >
                 LinkedIn
               </a>
