@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./ProjectPage.scss";
-import meditap1 from "../../assets/meditap1.png";
 
 class ProjectPage extends React.Component {
   renderPage = page => {
@@ -47,7 +46,7 @@ class ProjectPage extends React.Component {
             </div>
           );
         case "image":
-          return <img src={meditap1} />;
+          return <img src={item.name} />;
       }
     });
   };

@@ -1,17 +1,15 @@
 import React from "react";
 import Main from "./Components/Main/Main";
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Main />
-      </div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import RealTime from "../Projects/RealTime/RealTime";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import ProjectPage from "../ProjectPage/ProjectPage";
 
-import MeditapJSON from "../Projects/Meditap/Meditap.json";
+import MeditapJSON from "../Projects/Meditap/MeditapPage.js";
 import AskeyJSON from "../Projects/Askey/Askey.json";
 import RealTimeJSON from "../Projects/RealTime/RealTime.json";
 
