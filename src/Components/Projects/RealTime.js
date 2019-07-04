@@ -1,33 +1,28 @@
 export default {
-  title: "Meditap",
-  duration: "2019 Spring - Present",
-  technology: "React Native, Node, SQLite3 on AWS EC2, Firebase",
+  title: "Real-time Collaboration",
+  duration: "2019 Summer",
+  technology: "WebSocket, Node with Express, SQLite 3, WebViewer",
   summary: [
-    "Anticipated project launch in Nigeria in August 2019",
-    "Project acquired by the Canadian Network for International Surgery",
-    "Joule Healthcare Innovation Award for Biggest Potential Impact"
+    "Development Project at PDFTron Systems",
+    "PDFTron Open-source Project"
   ],
   page: [
     {
       type: "title",
-      text: "Meditap – Medical Records Through NFC Technology"
+      text: "Real-time Collaboration — Empowering Future of Collaboration"
     },
     {
       type: "duration",
-      text: "2019 Spring — Present"
+      text: "2019 Summer"
     },
     {
       type: "technology",
-      text: "React Native, Node, SQLite3 on AWS EC2, Firebase"
-    },
-    {
-      type: "image",
-      name: require("../../assets/meditap1.png")
+      text: "WebSocket, Node with Express, SQLite 3, WebViewer"
     },
     {
       type: "paragraph",
       text:
-        "Meditap is a cross-platform application leveraging NFC (near-field communication) technology to make medical records accessible for marginalized populations. Meditap was acquired by the Canadian Network for International Surgery in June 2019 and is currently under development as part of the Community Maternal Danger Score project aimed at reducing maternal mortality in Nigeria."
+        "Real-time collaboration is a feature that allows multiple users to simultaneously edit PDF documents in real time. As my final project during my first co-op term at PDFTron Systems, I implemented real-time collaboration feature on WebViewer using a SQLite3 database running on Node server connected to WebSocket."
     },
     {
       type: "subheader",
@@ -36,50 +31,27 @@ export default {
     {
       type: "paragraph",
       text:
-        "Meditap started at Hatching Health 2019, a medical innovation event held at the University of British Columbia focusing on cross-disciplinary innovation from students in medical and technology fields. Our initial solution was an application leveraging NFC technology to empower marginalized populations with their personal health information on NFC tags."
-    },
-    {
-      type: "image",
-      name: require("../../assets/meditap2.jpg")
+        "Since Web 2.0 movement in the mid 2000s, the paradigm of web-based document editing software have been shifting towards real-time collaboration solutions — most notably Writely, now known as Google Drive. The introduction of WebSocket, a bi-directional channel between client and a server in native web environment, eliminated the need for traditional long polling and allowed a simple and reliable implementation of real-time collaboration."
     },
     {
       type: "paragraph",
       text:
-        "After winning the Joule Innovation Award for Biggest Potential Impact and being named Medical Device Design Centre’s Award Finalist, Meditap has been acquired by the Canadian Network for International Surgery (CNIS) in June 2019."
+        "The biggest challenge of designing a real-time collaboration system is how the data will be stored and updated simultaneously throughout all users. After much discussion with senior software engineers at PDFTron, I decided to use XFDF (XML Forms Data Format) to store annotations in an SQL database. XFDF allows PDF annotations to be stored as an XML-like string, making complex annotation features easily retrievable."
     },
     {
       type: "paragraph",
       text:
-        "CNIS is an international non-governmental organization focusing on improvements in health and safety in developing nations. Dr. Ronald Lett, the CEO of CNIS and adjunct professor at UBC and McGill, showed a strong interest in incorporating Meditap to CNIS’s project on reducing maternal mortality."
+        "Even after the decision to store annotation as XFDF was made, the question of how the different clients will communicate with the server remained. My initial implementation was to use WebSocket as an event listener for each client, alerting the client to fetch new data in real-time. However, this implementation soon became problematic because the client was fetching the entire database in order to update the latest annotation change and unnecessary network requests are being made for each annotation change."
+    },
+    {
+      type: "paragraph",
+      text:
+        "As an alternate implementation, I made the WebSocket server as the central node that directly broadcasts annotation change to other clients and an SQL database. By implementing the WebSocket to directly transfer data to clients, the number of queries made to the SQL database dramatically decreased."
     },
     {
       type: "italics",
       text:
-        "In May 2019, Meditap successfully completed beta-testing in Tanzania and Kenya. The app is currently expecting to launch in August 2019 in Nigeria."
-    },
-    {
-      type: "subheader",
-      text: "My Role"
-    },
-    {
-      type: "paragraph",
-      text:
-        "As the only software developer in the team, I architected and implemented a React Native application that uses NDEF (near-field data exchange format) to reliably encrypt, store and modify data on NFC tags. I also implemented a Node server with Express and SQLite3 on AWS EC2 for storing patient information on the database."
-    },
-    {
-      type: "paragraph",
-      text:
-        "Throughout the development of the project, I worked very closely with Dr. Lett to make Meditap into a practical solution that can save lives. As a result, I spent countless nights refactoring (and completely breaking) the app in order to meet the feature requests from Dr. Lett. From this experience, I was forced to learn design patterns to build robust and flexible code modules."
+        "Real-time collaboration has been included as part of PDFTron’s open-source reference projects as of May 2019. You can view it here(github)"
     }
-    // {
-    //   type: "team",
-    //   list: [
-    //     "Brian Cheng - Designer",
-    //     "Adelia Jacobs - Dietetics",
-    //     "Vishu Karthik - Medical",
-    //     "Azzra Mangalji - Medical",
-    //     "James Park - Software Engineering"
-    //   ]
-    // }
   ]
 };
