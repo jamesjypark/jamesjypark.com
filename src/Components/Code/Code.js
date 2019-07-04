@@ -1,14 +1,12 @@
 import React from "react";
 import { NavLink, Switch, Route } from "react-router-dom";
-import Meditap from "../Projects/Meditap/Meditap";
-import Askey from "../Projects/Askey/Askey";
-import RealTime from "../Projects/RealTime/RealTime";
+
 import ProjectCard from "../ProjectCard/ProjectCard";
 import ProjectPage from "../ProjectPage/ProjectPage";
 
-import MeditapJSON from "../Projects/Meditap/MeditapPage.js";
-import AskeyJSON from "../Projects/Askey/Askey.json";
-import RealTimeJSON from "../Projects/RealTime/RealTime.json";
+import Meditap from "../Projects/Meditap";
+import Askey from "../Projects/Askey";
+import RealTime from "../Projects/RealTime";
 
 import MeditapLogo from "../../assets/meditap.svg";
 import AskeyLogo from "../../assets/askey.svg";
@@ -21,13 +19,13 @@ function CodeList() {
     <div className="CodeList">
       <div className="title">code</div>
       <NavLink className="link" to="/code/meditap">
-        <ProjectCard image={MeditapLogo} {...MeditapJSON} />
+        <ProjectCard image={MeditapLogo} {...Meditap} />
       </NavLink>
       <NavLink className="link" to="/code/askey">
-        <ProjectCard image={AskeyLogo} {...AskeyJSON} />
+        <ProjectCard image={AskeyLogo} {...Askey} />
       </NavLink>
       <NavLink className="link" to="/code/real-time-collaboration">
-        <ProjectCard image={RealTimeLogo} {...RealTimeJSON} />
+        <ProjectCard image={RealTimeLogo} {...RealTime} />
       </NavLink>
     </div>
   );
@@ -41,15 +39,12 @@ class Code extends React.Component {
           <Route exact path="/code" component={CodeList} />
           <Route
             path="/code/meditap"
-            render={() => <ProjectPage {...MeditapJSON} />}
+            render={() => <ProjectPage {...Meditap} />}
           />
-          <Route
-            path="/code/askey"
-            render={() => <ProjectPage {...AskeyJSON} />}
-          />
+          <Route path="/code/askey" render={() => <ProjectPage {...Askey} />} />
           <Route
             path="/code/real-time-collaboration"
-            render={() => <ProjectPage {...RealTimeJSON} />}
+            render={() => <ProjectPage {...RealTime} />}
           />
         </Switch>
       </div>

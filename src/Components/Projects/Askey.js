@@ -22,7 +22,7 @@ export default {
     },
     {
       type: "image",
-      name: require("../../../assets/meditap1.png")
+      name: require("../../assets/meditap1.png")
     },
     {
       type: "paragraph",
@@ -37,6 +37,10 @@ export default {
       type: "paragraph",
       text:
         "Meditap started at Hatching Health 2019, a medical innovation event held at the University of British Columbia focusing on cross-disciplinary innovation from students in medical and technology fields. Our initial solution was an application leveraging NFC technology to empower marginalized populations with their personal health information on NFC tags."
+    },
+    {
+      type: "image",
+      name: require("../../assets/meditap2.jpg")
     },
     {
       type: "paragraph",
