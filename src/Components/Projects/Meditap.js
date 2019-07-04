@@ -22,7 +22,7 @@ export default {
     },
     {
       type: "image",
-      name: require("../../assets/meditap1.png")
+      address: require("../../assets/meditap1.png")
     },
     {
       type: "paragraph",
@@ -40,7 +40,7 @@ export default {
     },
     {
       type: "image",
-      name: require("../../assets/meditap2.jpg")
+      address: require("../../assets/meditap2.jpg")
     },
     {
       type: "paragraph",

@@ -45,7 +45,7 @@ class ProjectPage extends React.Component {
             </div>
           );
         case "image":
-          return <img src={item.name} />;
+          return <img src={item.address} />;
       }
     });
   };
