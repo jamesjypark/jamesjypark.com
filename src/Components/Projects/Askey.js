@@ -1,33 +1,33 @@
 export default {
-  title: "Meditap",
-  duration: "2019 Spring - Present",
-  technology: "React Native, Node, SQLite3 on AWS EC2, Firebase",
+  title: "ASKEY",
+  duration: "2019 Spring",
+  technology: "React, Sketch, FFmpeg, TTYD",
   summary: [
-    "Anticipated project launch in Nigeria in August 2019",
-    "Project acquired by the Canadian Network for International Surgery",
-    "Joule Healthcare Innovation Award for Biggest Potential Impact"
+    "nwHacks 2019 Runner-up Winner",
+    "Hootsuite Hack that Best Champions the Power of Human Connection",
+    "The Wolfram Award"
   ],
   page: [
     {
       type: "title",
-      text: "Meditap – Medical Records Through NFC Technology"
+      text: "ASKEY – Video Calling with ASCII Characters"
     },
     {
       type: "duration",
-      text: "2019 Spring — Present"
+      text: "2019 Spring"
     },
     {
       type: "technology",
-      text: "React Native, Node, SQLite3 on AWS EC2, Firebase"
+      text: "React, Sketch, FFmpeg, TTYD"
     },
     {
       type: "image",
-      name: require("../../assets/meditap1.png")
+      name: require("../../assets/askey1.gif")
     },
     {
       type: "paragraph",
       text:
-        "Meditap is a cross-platform application leveraging NFC (near-field communication) technology to make medical records accessible for marginalized populations. Meditap was acquired by the Canadian Network for International Surgery in June 2019 and is currently under development as part of the Community Maternal Danger Score project aimed at reducing maternal mortality in Nigeria."
+        "ASKEY is an ASCII-representation video calling web application. By converting image frames into ASCII characters resembling the image, the application provides key features of video calling while providing a stable video calling experience for users in low bandwidth environments. "
     },
     {
       type: "subheader",
@@ -36,50 +36,35 @@ export default {
     {
       type: "paragraph",
       text:
-        "Meditap started at Hatching Health 2019, a medical innovation event held at the University of British Columbia focusing on cross-disciplinary innovation from students in medical and technology fields. Our initial solution was an application leveraging NFC technology to empower marginalized populations with their personal health information on NFC tags."
+        "While video calling has brought the world closer together over the past couple decades, stable video connection remains a luxury only for internet users in high bandwidth and low latency environments."
+    },
+    {
+      type: "paragraph",
+      text:
+        "At nwHacks 2019, our team decided to tackle this problem by coming up with a solution to preserve key features of videotelephony while reducing the amount of data needed to be exchanged for stable video calling."
+    },
+    {
+      type: "paragraph",
+      text:
+        "Our solution was to convert each image into a string of ASCII characters with recognizable facial features and exchanging the string instead of image frames. Using ffmpeg, an open-source library for manipulating input, we were able to successfully make a video connection while using 44 times less data compared to 480p video call."
+    },
+    {
+      type: "paragraph",
+      text:
+        "ASKEY was presented at nwHacks 2019, Western Canada’s largest hackathon with over 133 competing teams. ASKEY was the runner-up winner and won the following awards:"
+    },
+    {
+      type: "list",
+      list: [
+        "nwHacks 2019 Finalists 2nd place",
+        "Hootsuite - Hack that Best Champions the Power of Human Connection",
+        "The Wolfram Award",
+        ".TECH - Best Hack on .TECH Domain"
+      ]
     },
     {
       type: "image",
-      name: require("../../assets/meditap2.jpg")
-    },
-    {
-      type: "paragraph",
-      text:
-        "After winning the Joule Innovation Award for Biggest Potential Impact and being named Medical Device Design Centre’s Award Finalist, Meditap has been acquired by the Canadian Network for International Surgery (CNIS) in June 2019."
-    },
-    {
-      type: "paragraph",
-      text:
-        "CNIS is an international non-governmental organization focusing on improvements in health and safety in developing nations. Dr. Ronald Lett, the CEO of CNIS and adjunct professor at UBC and McGill, showed a strong interest in incorporating Meditap to CNIS’s project on reducing maternal mortality."
-    },
-    {
-      type: "italics",
-      text:
-        "In May 2019, Meditap successfully completed beta-testing in Tanzania and Kenya. The app is currently expecting to launch in August 2019 in Nigeria."
-    },
-    {
-      type: "subheader",
-      text: "My Role"
-    },
-    {
-      type: "paragraph",
-      text:
-        "As the only software developer in the team, I architected and implemented a React Native application that uses NDEF (near-field data exchange format) to reliably encrypt, store and modify data on NFC tags. I also implemented a Node server with Express and SQLite3 on AWS EC2 for storing patient information on the database."
-    },
-    {
-      type: "paragraph",
-      text:
-        "Throughout the development of the project, I worked very closely with Dr. Lett to make Meditap into a practical solution that can save lives. As a result, I spent countless nights refactoring (and completely breaking) the app in order to meet the feature requests from Dr. Lett. From this experience, I was forced to learn design patterns to build robust and flexible code modules."
+      name: require("../../assets/askey2.jpg")
     }
-    // {
-    //   type: "team",
-    //   list: [
-    //     "Brian Cheng - Designer",
-    //     "Adelia Jacobs - Dietetics",
-    //     "Vishu Karthik - Medical",
-    //     "Azzra Mangalji - Medical",
-    //     "James Park - Software Engineering"
-    //   ]
-    // }
   ]
 };

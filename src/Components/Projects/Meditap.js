@@ -72,7 +72,8 @@ export default {
         "Throughout the development of the project, I worked very closely with Dr. Lett to make Meditap into a practical solution that can save lives. As a result, I spent countless nights refactoring (and completely breaking) the app in order to meet the feature requests from Dr. Lett. From this experience, I was forced to learn design patterns to build robust and flexible code modules."
     }
     // {
-    //   type: "team",
+    //   type: "list",
+    //   title: "team",
     //   list: [
     //     "Brian Cheng - Designer",
     //     "Adelia Jacobs - Dietetics",
