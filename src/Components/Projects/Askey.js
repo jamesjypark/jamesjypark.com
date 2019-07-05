@@ -10,7 +10,7 @@ export default {
   page: [
     {
       type: "title",
-      text: "ASKEY – Video Calling with ASCII Characters"
+      text: "ASKEY – Efficient Video Calling with ASCII Characters"
     },
     {
       type: "duration",

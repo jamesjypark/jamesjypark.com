@@ -6,10 +6,11 @@ import ProjectPage from "../ProjectPage/ProjectPage";
 
 import Meditap from "../Projects/Meditap";
 import DailyUi from "../Projects/DailyUi";
-import HangeulPrinting from "../Projects/HangeulPrinting/HangeulPrinting";
+import HangulPrinting from "../Projects/HangulPrinting";
 import AutonomousRov from "../Projects/AutonomousRov/AutonomousRov";
 
 import DailyUiLogo from "../../assets/daily-ui.png";
+import HangulLogo from "../../assets/hangul.png";
 
 function DesignList() {
   return (
@@ -18,12 +19,12 @@ function DesignList() {
       <NavLink className="link" to="/design/daily-ui">
         <ProjectCard image={DailyUiLogo} {...DailyUi} />
       </NavLink>
-      <NavLink className="link" to="/design/hangeul-printing">
-        Hangeul Printing
+      <NavLink className="link" to="/design/hangul-printing">
+        <ProjectCard image={HangulLogo} {...HangulPrinting} />
       </NavLink>
-      <NavLink className="link" to="/design/autonomous-rov">
-        Autonomous Underwater Vehicle
-      </NavLink>
+      {/* <NavLink className="link" to="/design/autonomous-rov">
+        <ProjectCard image={DailyUiLogo} {...DailyUi} />
+      </NavLink> */}
     </div>
   );
 }
@@ -38,8 +39,11 @@ class Design extends React.Component {
             path="/design/daily-ui"
             render={() => <ProjectPage {...DailyUi} />}
           />
-          <Route path="/design/hangeul-printing" component={HangeulPrinting} />
-          <Route path="/design/autonomous-rov" component={AutonomousRov} />
+          <Route
+            path="/design/hangul-printing"
+            render={() => <ProjectPage {...HangulPrinting} />}
+          />
+          {/* <Route path="/design/autonomous-rov" component={AutonomousRov} /> */}
         </Switch>
       </div>
     );
