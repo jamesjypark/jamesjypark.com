@@ -6,94 +6,15 @@
   max-width: 1200px;
   font-family: "Avenir";
 
-  .link {
-    text-decoration: none;
-  }
-  // text types
-  .title {
-    font-size: 50px;
-    font-weight: bold;
-    color: $light-grey;
-    text-align: left;
-    margin-top: 1vh;
-    margin-bottom: 5vh;
-  }
-
-  .subheader1 {
-    font-family: "Merriweather";
-    font-size: 40px;
-    font-weight: bold;
-    color: $dark-grey;
-  }
-
-  .subheader2 {
-    font-size: 30px;
-    font-weight: bold;
-    color: $dark-grey;
-  }
-
-  .basetext1 {
-    font-size: 20px;
-    color: $medium-grey;
-    &.bold {
-      font-weight: bold;
-    }
-    &.medium {
-      font-weight: normal;
-    }
-    &.book {
-      font-weight: lighter;
-    }
-  }
-
-  .basetext2 {
-    font-size: 16px;
-    color: $dark-grey;
-    &.bold {
-      font-weight: bold;
-    }
-    &.medium {
-      font-weight: normal;
-    }
-    &.book {
-      font-weight: lighter;
-    }
-  }
-
-  .basetext3 {
-    font-size: 13px;
-    color: $medium-grey;
-    &.bold {
-      font-weight: bold;
-    }
-    &.medium {
-      font-weight: normal;
-    }
-    &.book {
-      font-weight: lighter;
-    }
-  }
-
-  .left {
-    text-align: left;
-  }
-
-  .right {
-    text-align: right;
-  }
-
   @include desktop {
     width: $desktop-content-width;
-    // background: purple;
   }
 
   @include tablet {
     width: $tablet-content-width;
-    // background: red;
   }
 
   @include mobile {
     width: $mobile-content-width;
-    // background: blue;
   }
 }

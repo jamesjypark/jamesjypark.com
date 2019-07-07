@@ -23,7 +23,7 @@ class Home extends React.Component {
     return (
       <div className="Home">
         <div className="basetext1 medium">
-          <div className="title">about me</div>
+          <div className="title left">about me</div>
           <div className="Portrait">
             <img src={Blocker} />
             <img

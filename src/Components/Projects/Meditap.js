@@ -47,13 +47,13 @@ export default {
       text: "Current Progress"
     },
     {
-      type: "image",
-      address: require("../../assets/meditap3.png")
-    },
-    {
       type: "paragraph",
       text:
         "After winning the Joule Innovation Award for Biggest Potential Impact and being named Medical Device Design Centre’s Award Finalist, Meditap has been acquired by the Canadian Network for International Surgery (CNIS) in June 2019."
+    },
+    {
+      type: "image",
+      address: require("../../assets/meditap3.png")
     },
     {
       type: "paragraph",

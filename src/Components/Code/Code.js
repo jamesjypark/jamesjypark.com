@@ -17,7 +17,7 @@ import "./Code.scss";
 function CodeList() {
   return (
     <div>
-      <div className="title">code</div>
+      <div className="title left">code</div>
       <NavLink className="link" to="/code/meditap">
         <ProjectCard image={MeditapLogo} {...Meditap} />
       </NavLink>

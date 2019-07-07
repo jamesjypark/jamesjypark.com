@@ -15,7 +15,7 @@ import HangulLogo from "../../assets/hangul.png";
 function DesignList() {
   return (
     <div>
-      <div className="title">design</div>
+      <div className="title left">design</div>
       <NavLink className="link" to="/design/daily-ui">
         <ProjectCard image={DailyUiLogo} {...DailyUi} />
       </NavLink>
