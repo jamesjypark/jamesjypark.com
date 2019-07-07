@@ -10,7 +10,7 @@ import RealTime from "../Projects/RealTime";
 
 import MeditapLogo from "../../assets/meditap.svg";
 import AskeyLogo from "../../assets/askey.svg";
-import RealTimeLogo from "../../assets/realtime.svg";
+import RealTimeLogo from "../../assets/realtime.png";
 
 import "./Code.scss";
 

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default {
   title: "Hangul Printing",
   duration: "2018 Winter",
@@ -34,9 +36,19 @@ export default {
         "The Korean alphabet — commonly known as Hangul (한글) — is a syllabic writing system that allows the entire Korean vocabulary to be scribed in with a combination of just 14 consonants and 10 vowels. Largely due to its simplicity and symmetrical structure, many designers take the alphabet as a design inspiration."
     },
     {
-      type: "paragraph",
-      text:
-        "While reading about the different aspects of the alphabet, I was inspired by Minzi Kang’s article (Design Lessons from the Korean Alphabet https://medium.com/@minzikang/design-lessons-from-the-korean-alphabet-383191ee7d4d)  on design applications of Hangul, and decided to use it on my own design."
+      type: "paragraph-link",
+      text: [
+        "While reading about the different aspects of the alphabet, I was inspired by ",
+        <a
+          href="https://medium.com/@minzikang/design-lessons-from-the-korean-alphabet-383191ee7d4d"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Minzi Kang’s article
+        </a>,
+        " on design applications of Hangul, and decided to use it on my own design."
+      ]
     },
     {
       type: "paragraph",

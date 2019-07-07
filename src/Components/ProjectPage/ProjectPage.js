@@ -2,24 +2,9 @@ import React from "react";
 import Markdown from "markdown-to-jsx";
 import { render } from "react-dom";
 
-import testMd from "../../Projects/test.md";
-
 import "./ProjectPage.scss";
 
 class ProjectPage extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = { content: "" };
-  }
-  componentWillMount() {
-    fetch(testMd)
-      .then(response => response.text())
-      .then(text => {
-        this.setState({ content: text });
-      });
-  }
-
   renderPage = page => {
     return page.map(item => {
       switch (item.type) {
@@ -61,6 +46,8 @@ class ProjectPage extends React.Component {
               <div className="basetext2 medium">{item.text}</div>
             </div>
           );
+        case "paragraph-link":
+          return <div className="paragraph-container">{item.text}</div>;
         case "image":
           return <img src={item.address} />;
       }
@@ -68,8 +55,7 @@ class ProjectPage extends React.Component {
   };
   render() {
     const { page } = this.props;
-    // return <div className="ProjectPage">{this.renderPage(page)}</div>;
-    return <Markdown>{this.state.content}</Markdown>;
+    return <div className="ProjectPage">{this.renderPage(page)}</div>;
   }
 }
 

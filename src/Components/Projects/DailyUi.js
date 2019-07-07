@@ -1,3 +1,5 @@
+import React from "react";
+
 export default {
   title: "Daily UI",
   duration: "2018 Fall - 2019 Summer",
@@ -6,7 +8,7 @@ export default {
   page: [
     {
       type: "title",
-      text: "Daily UI – First Steps into User Interface Design"
+      text: "Daily UI – Intro to User Interface Design"
     },
     {
       type: "duration",
@@ -72,8 +74,18 @@ export default {
       address: require("../../assets/daily-ui4.png")
     },
     {
-      type: "paragraph",
-      text: "You can see all 100 shots on my Dribbble page."
+      type: "paragraph-link",
+      text: [
+        "Checkout ",
+        <a
+          href="https://dribbble.com/jamespark"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          other shots I made on Dribbble.{" "}
+        </a>
+      ]
     }
   ]
 };

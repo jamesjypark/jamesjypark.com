@@ -9,7 +9,8 @@ export default {
   page: [
     {
       type: "title",
-      text: "Real-time Collaboration — Empowering Future of Collaboration"
+      text:
+        "Real-time Collaboration — Next Generation of Collaborative Document Editing"
     },
     {
       type: "duration",
@@ -18,6 +19,10 @@ export default {
     {
       type: "technology",
       text: "WebSocket, Node with Express, SQLite 3, WebViewer"
+    },
+    {
+      type: "image",
+      address: require("../../assets/realtime2.gif")
     },
     {
       type: "paragraph",

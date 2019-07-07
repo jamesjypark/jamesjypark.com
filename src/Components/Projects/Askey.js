@@ -1,3 +1,5 @@
+import React from "react";
+
 export default {
   title: "ASKEY",
   duration: "2019 Spring",
@@ -65,6 +67,29 @@ export default {
     {
       type: "image",
       address: require("../../assets/askey2.jpg")
+    },
+    {
+      type: "paragraph-link",
+      text: [
+        "Checkout our ",
+        <a
+          href="https://github.com/ValRat/ascii-chat"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Github repo
+        </a>,
+        " and ",
+        <a
+          href="https://devpost.com/software/ascii-chat-zh6x7m"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Devpost
+        </a>
+      ]
     }
   ]
 };

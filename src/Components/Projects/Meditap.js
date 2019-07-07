@@ -43,6 +43,14 @@ export default {
       address: require("../../assets/meditap2.jpg")
     },
     {
+      type: "subheader",
+      text: "Current Progress"
+    },
+    {
+      type: "image",
+      address: require("../../assets/meditap3.png")
+    },
+    {
       type: "paragraph",
       text:
         "After winning the Joule Innovation Award for Biggest Potential Impact and being named Medical Device Design Centre’s Award Finalist, Meditap has been acquired by the Canadian Network for International Surgery (CNIS) in June 2019."
@@ -50,12 +58,12 @@ export default {
     {
       type: "paragraph",
       text:
-        "CNIS is an international non-governmental organization focusing on improvements in health and safety in developing nations. Dr. Ronald Lett, the CEO of CNIS and adjunct professor at UBC and McGill, showed a strong interest in incorporating Meditap to CNIS’s project on reducing maternal mortality."
+        "CNIS is an international non-governmental organization focusing on improvements in health and safety in developing nations. I have been very closely working with Dr. Ronald Lett, the CEO of CNIS and adjunct professor at UBC and McGill, to construct an intuitive and efficient application that can save lives."
     },
     {
-      type: "italics",
+      type: "paragraph",
       text:
-        "In May 2019, Meditap successfully completed beta-testing in Tanzania and Kenya. The app is currently expecting to launch in August 2019 in Nigeria."
+        "In May and June 2019, Meditap successfully completed beta-testing in Kenya and Tanzania. The app is currently expecting to launch in August 2019 in Nigeria."
     },
     {
       type: "subheader",
@@ -64,12 +72,12 @@ export default {
     {
       type: "paragraph",
       text:
-        "As the only software developer in the team, I architected and implemented a React Native application that uses NDEF (near-field data exchange format) to reliably encrypt, store and modify data on NFC tags. I also implemented a Node server with Express and SQLite3 on AWS EC2 for storing patient information on the database."
+        "As the only software developer in the team, I architected and implemented the React Native app using NDEF (near-field data exchange format) to encrypt, store and modify data on NFC tags. I also implemented a Node server with Express and SQLite3 on AWS EC2 to store patient information on the database. "
     },
     {
       type: "paragraph",
       text:
-        "Throughout the development of the project, I worked very closely with Dr. Lett to make Meditap into a practical solution that can save lives. As a result, I spent countless nights refactoring (and completely breaking) the app in order to meet the feature requests from Dr. Lett. From this experience, I was forced to learn design patterns to build robust and flexible code modules."
+        "Throughout the project, I spent countless nights refactoring (completely breaking), and modifying the application according to the numerous feedback I received from Dr. Lett and medical professionals. The experience, despite being moderately painful, allowed me to deeply understand and appreciate design patterns that are required to build a robust and flexible program."
     }
     // {
     //   type: "list",
