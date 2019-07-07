@@ -1,3 +1,5 @@
+@import "../../constants/styles.scss";
+
 .Home {
   margin-bottom: 10vh;
   .Portrait {
@@ -26,10 +28,10 @@
     margin-top: 40px;
     > * {
       margin-top: 10px;
-      color: #393e46;
+      color: $dark-grey;
     }
     .link {
-      color: #4a90e2;
+      color: $light-blue;
     }
   }
 }

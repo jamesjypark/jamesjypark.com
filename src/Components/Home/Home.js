@@ -44,7 +44,7 @@ class Home extends React.Component {
           <div className="links">
             <div>
               <a
-                href="https://drive.google.com/file/d/1z5UOpLnqH-6NkjqhB9vwLI3ty1EcMGl2/view?usp=sharing"
+                href="https://drive.google.com/file/d/1nIzqEAhsL7JihHlsJ68sqkV1hOSfO4Lb/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link"

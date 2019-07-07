@@ -1,0 +1,61 @@
+// Main colours
+$light-grey: #aaaaaa;
+$medium-grey: #747474;
+$dark-grey: #393e46;
+$dark-blue: #1964a4;
+$light-blue: #4a90e2;
+
+// Screens
+$tablet-width: 1025px;
+$mobile-width: 768px;
+
+// Layout
+$desktop-content-width: 58vw;
+$tablet-content-width: 80vw;
+$mobile-content-width: 90vw;
+
+@mixin desktop {
+  @media (min-width: #{$tablet-width + 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+.hide-in-desktop {
+  @include desktop {
+    display: none;
+  }
+}
+
+.hide-in-tablet {
+  @include tablet {
+    display: none;
+  }
+}
+
+.hide-in-mobile {
+  @include mobile {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: Avenir;
+  src: "../assets/avenir-lt-std-cufonts-webfont";
+}
+
+@font-face {
+  font-family: Merriweather;
+  src: "../assets/Merriweather";
+}

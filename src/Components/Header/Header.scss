@@ -1,3 +1,5 @@
+@import "../../constants/styles.scss";
+
 .Header {
   // width: 58vw;
   // max-width: 1200px;
@@ -7,7 +9,6 @@
   margin-top: 2vh;
   font-size: 18px;
   font-weight: medium;
-  color: #393e46;
 
   img {
     height: 30px;
@@ -15,7 +16,7 @@
   }
 
   .link {
-    color: #393e46;
+    color: $dark-grey;
   }
 
   .links {
@@ -24,8 +25,9 @@
       margin-right: 20px;
     }
   }
+
   .active {
-    color: #1964a4;
+    color: $dark-blue;
     font-weight: bold;
   }
 }

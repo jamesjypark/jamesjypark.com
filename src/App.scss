@@ -1,7 +1,8 @@
+@import "./constants/styles.scss";
+
 .App {
   margin-left: auto;
   margin-right: auto;
-  width: 58vw;
   max-width: 1200px;
   font-family: "Avenir";
 
@@ -12,7 +13,7 @@
   .title {
     font-size: 50px;
     font-weight: bold;
-    color: #aaaaaa;
+    color: $light-grey;
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 5vh;
@@ -22,18 +23,18 @@
     font-family: "Merriweather";
     font-size: 40px;
     font-weight: bold;
-    color: #393e46;
+    color: $dark-grey;
   }
 
   .subheader2 {
     font-size: 30px;
     font-weight: bold;
-    color: #393e46;
+    color: $dark-grey;
   }
 
   .basetext1 {
     font-size: 20px;
-    color: #747474;
+    color: $medium-grey;
     &.bold {
       font-weight: bold;
     }
@@ -47,7 +48,7 @@
 
   .basetext2 {
     font-size: 16px;
-    color: #393e46;
+    color: $dark-grey;
     &.bold {
       font-weight: bold;
     }
@@ -61,7 +62,7 @@
 
   .basetext3 {
     font-size: 13px;
-    color: #747474;
+    color: $medium-grey;
     &.bold {
       font-weight: bold;
     }
@@ -80,14 +81,19 @@
   .right {
     text-align: right;
   }
-}
 
-@font-face {
-  font-family: Avenir;
-  src: "/assets/avenir-lt-std-cufonts-webfont";
-}
+  @include desktop {
+    width: $desktop-content-width;
+    // background: purple;
+  }
 
-@font-face {
-  font-family: Merriweather;
-  src: "/assets/Merriweather";
+  @include tablet {
+    width: $tablet-content-width;
+    // background: red;
+  }
+
+  @include mobile {
+    width: $mobile-content-width;
+    // background: blue;
+  }
 }
