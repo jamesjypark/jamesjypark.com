@@ -3,7 +3,7 @@ import React from "react";
 export default {
   title: "Daily UI",
   duration: "2018 Fall - 2019 Summer",
-  technology: "Sketch, InVision Studio, Adobe Animate, Pen and Paper",
+  technology: "Sketch, InVision Studio, Adobe Animate",
   summary: ["100 Daily UI Challenges"],
   page: [
     {
@@ -16,7 +16,7 @@ export default {
     },
     {
       type: "technology",
-      text: "Sketch, InVision Studio, Adobe Animate, Pen and Paper"
+      text: "Sketch, InVision Studio, Adobe Animate"
     },
     {
       type: "paragraph",

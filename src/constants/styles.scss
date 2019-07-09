@@ -7,14 +7,12 @@ $light-blue: #4a90e2;
 
 // Screens
 $tablet-width: 1025px;
-$mobile-width: 768px;
+$mobile-width: 767px;
 
 // Layout
 $desktop-content-width: 58vw;
-$tablet-content-width: 80vw;
+$tablet-content-width: 90vw;
 $mobile-content-width: 90vw;
-
-$project-card-height-desktop: 300px;
 
 // Screen Sizes
 @mixin desktop {
@@ -25,6 +23,12 @@ $project-card-height-desktop: 300px;
 
 @mixin tablet {
   @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop-and-tablet {
+  @media (min-width: #{$mobile-width + 1px}) {
     @content;
   }
 }
@@ -96,7 +100,14 @@ $project-card-height-desktop: 300px;
 .subheader2 {
   font-weight: bold;
   color: $dark-grey;
-  font-size: 30px;
+
+  @include desktop-and-tablet {
+    font-size: 30px;
+  }
+
+  @include mobile {
+    font-size: 20px;
+  }
 }
 
 .basetext1 {

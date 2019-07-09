@@ -11,16 +11,13 @@ class ProjectCard extends React.Component {
           <img src={image} />
         </div>
         <div className="text">
-          <div className="subheader2">{title}</div>
-          <div className="basetext3 book">{duration}</div>
-          <div className="basetext3 book">{technology}</div>
-          <div className="summary">
+          <div className="subheader2 left">{title}</div>
+          <div className="basetext3 book left">{duration}</div>
+          <div className="basetext3 book left">{technology}</div>
+          <div className="summary hide-in-mobile">
             {summary.map(text => (
-              <div className="basetext3 book">{text}</div>
+              <div className="basetext3 book left">{text}</div>
             ))}
-            {summary.forEach(summary => {
-              return <div className="basetext3 book">{summary}</div>;
-            })}
           </div>
         </div>
       </div>
