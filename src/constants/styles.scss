@@ -11,7 +11,7 @@ $mobile-width: 767px;
 
 // Layout
 $desktop-content-width: 58vw;
-$tablet-content-width: 90vw;
+$tablet-content-width: 85vw;
 $mobile-content-width: 90vw;
 
 // Screen Sizes
@@ -94,7 +94,14 @@ $mobile-content-width: 90vw;
   font-weight: bold;
   color: $dark-grey;
   font-family: "Merriweather";
-  font-size: 40px;
+
+  @include desktop-and-tablet() {
+    font-size: 40px;
+  }
+
+  @include mobile {
+    font-size: 25px;
+  }
 }
 
 .subheader2 {
@@ -112,7 +119,14 @@ $mobile-content-width: 90vw;
 
 .basetext1 {
   @include font;
-  font-size: 20px;
+
+  @include desktop-and-tablet {
+    font-size: 20px;
+  }
+
+  @include mobile {
+    font-size: 17px;
+  }
   color: $medium-grey;
 }
 

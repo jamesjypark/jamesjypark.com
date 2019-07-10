@@ -1,13 +1,16 @@
 @import "../../constants/styles.scss";
 
 .Home {
-  margin-bottom: 10vh;
+  margin-bottom: 100px;
   .Portrait {
     position: relative;
     top: 0;
     left: 0;
     img {
-      width: 30vw;
+      width: 50%;
+      @include mobile {
+        width: 100%;
+      }
     }
     img:nth-child(1) {
       z-index: 5;
@@ -18,19 +21,24 @@
       left: auto;
     }
   }
+
   .subheader1 {
     margin: 20px;
   }
+
   .description {
     margin: 7px;
   }
+
   .links {
-    margin-top: 40px;
-    > * {
-      margin-top: 10px;
-      color: $dark-grey;
+    display: flex;
+    flex-direction: column;
+
+    @include desktop {
+      padding: 30px;
     }
     .link {
+      padding: 4px;
       color: $light-blue;
     }
   }

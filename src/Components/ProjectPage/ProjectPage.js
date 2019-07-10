@@ -23,7 +23,7 @@ class ProjectPage extends React.Component {
         case "technology":
           return (
             <div className="margin-container">
-              <div className="basetext2 medium">{item.text}</div>
+              <div className="basetext2 medium technology">{item.text}</div>
             </div>
           );
         case "list":

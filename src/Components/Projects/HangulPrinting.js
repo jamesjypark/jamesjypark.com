@@ -24,7 +24,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul1.jpg")
+      address: require("../../assets/hangul1.png")
     },
     {
       type: "subheader",
@@ -53,7 +53,7 @@ export default {
     {
       type: "paragraph",
       text:
-        "I began by going through the shape of everyday objects and trying to identify overlaps with the shape of the word in Hangul. Below are some of my favourite designs."
+        "I began by going through the shape of everyday objects and trying to identify overlaps with the shape of the word in Hangul. Below are some of my favourite outcomes."
     },
     {
       type: "subheader",
@@ -124,7 +124,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul1.jpg")
+      address: require("../../assets/hangul11.jpg")
     },
     {
       type: "image",

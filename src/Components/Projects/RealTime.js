@@ -9,8 +9,7 @@ export default {
   page: [
     {
       type: "title",
-      text:
-        "Real-time Collaboration — Next Generation of Collaborative Document Editing"
+      text: "Real-time Collaboration — Instant Collaborative Document Editing"
     },
     {
       type: "duration",

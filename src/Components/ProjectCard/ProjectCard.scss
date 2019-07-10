@@ -43,7 +43,7 @@
       width: 30%;
     }
     @include mobile {
-      height: 45%;
+      height: 250px;
     }
   }
 
@@ -65,7 +65,7 @@
   .summary {
     margin-top: 5%;
     > * {
-      margin-top: 0.5vh;
+      margin-top: 0.5%;
     }
   }
 }
