@@ -12,7 +12,7 @@ class Main extends React.Component {
     return (
       <div className="Main">
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route exact path={"/"} component={Home} />
           <Route path="/code" component={Code} />
           <Route path="/design" component={Design} />
         </Switch>
