@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="Header">
-        <Link to="/" activeClassName="test" activeClassName="link">
+        <Link to="/" activeClassName="link">
           <img src={logo} />
         </Link>
         <div className="links">

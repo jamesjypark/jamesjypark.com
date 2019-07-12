@@ -9,6 +9,10 @@
   font-size: 18px;
   font-weight: medium;
 
+  @include mobile {
+    justify-content: space-between;
+  }
+
   img {
     height: 30px;
     width: auto;

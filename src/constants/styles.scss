@@ -77,9 +77,10 @@ $mobile-content-width: 90vw;
 
 // Text types
 .title {
-  font-weight: bold;
+  font-weight: bolder;
   color: $light-grey;
   font-size: 50px;
+  letter-spacing: 1px;
   @include mobile {
     font-size: 35px;
   }
@@ -105,7 +106,7 @@ $mobile-content-width: 90vw;
 }
 
 .subheader2 {
-  font-weight: bold;
+  font-weight: bolder;
   color: $dark-grey;
 
   @include desktop-and-tablet {
@@ -148,14 +149,4 @@ $mobile-content-width: 90vw;
 
 .right {
   text-align: right;
-}
-
-@font-face {
-  font-family: Avenir;
-  src: "../assets/avenir-lt-std-cufonts-webfont";
-}
-
-@font-face {
-  font-family: Merriweather;
-  src: "../assets/Merriweather";
 }

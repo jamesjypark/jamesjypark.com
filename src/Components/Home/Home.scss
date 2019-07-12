@@ -1,7 +1,7 @@
 @import "../../constants/styles.scss";
 
 .Home {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   .Portrait {
     position: relative;
     top: 0;
@@ -36,6 +36,10 @@
 
     @include desktop {
       padding: 30px;
+    }
+
+    @include mobile {
+      margin-top: 50px;
     }
     .link {
       padding: 4px;
