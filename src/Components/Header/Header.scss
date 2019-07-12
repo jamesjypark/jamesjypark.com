@@ -20,6 +20,11 @@
 
   .link {
     color: $dark-grey;
+    transition: 0.5s;
+
+    &:hover {
+      color: $light-blue;
+    }
   }
 
   .links {
