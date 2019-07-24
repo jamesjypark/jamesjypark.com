@@ -43,6 +43,10 @@ export default {
         "The biggest challenge of designing a real-time collaboration system is how the data will be stored and updated simultaneously throughout all users. After much discussion with senior software engineers at PDFTron, I decided to use XFDF (XML Forms Data Format) to store annotations in an SQL database. XFDF allows PDF annotations to be stored as an XML-like string, making complex annotation features easily retrievable."
     },
     {
+      type: "image",
+      address: require("../../assets/realtime3.png")
+    },
+    {
       type: "paragraph",
       text:
         "Even after the decision to store annotation as XFDF was made, the question of how the different clients will communicate with the server remained. My initial implementation was to use WebSocket as an event listener for each client, alerting the client to fetch new data in real-time. However, this implementation soon became problematic because the client was fetching the entire database in order to update the latest annotation change and unnecessary network requests are being made for each annotation change."
