@@ -1,16 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import { BrowserRouter } from "react-router-dom";
+
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop";
+import RouterContainer from "./Components/RouteContainer";
+
+import "./index.css";
 
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <ScrollToTop>
-      <App />
-    </ScrollToTop>
+    <RouterContainer>
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
+    </RouterContainer>
   </BrowserRouter>,
   document.getElementById("root")
 );

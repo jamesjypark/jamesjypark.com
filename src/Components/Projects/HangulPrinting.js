@@ -33,7 +33,7 @@ export default {
     {
       type: "paragraph",
       text:
-        "The Korean alphabet — commonly known as Hangul (한글) — is a syllabic writing system that allows the entire Korean vocabulary to be scribed in with a combination of just 14 consonants and 10 vowels. Largely due to its simplicity and symmetrical structure, many designers take the alphabet as a design inspiration."
+        "The Korean alphabet — commonly known as Hangul (한글) — is a syllabic writing system that allows the entire Korean vocabulary to be scribed with a combination of just 14 consonants and 10 vowels. Largely due to its simplicity and symmetrical structure, many designers take the alphabet as a design inspiration."
     },
     {
       type: "paragraph-link",
