@@ -4,11 +4,11 @@ export default {
   title: "Hangul Printing",
   duration: "2018 Winter",
   technology: "SolidWorks, MakerBot Print",
-  summary: ["Design Exploration using the Korean Alphabet"],
+  summary: ["Design Applications of the Korean Alphabet"],
   page: [
     {
       type: "title",
-      text: "Hangul Printing — Design Application of the Korean Alphabet"
+      text: "Hangul Printing — Design Applications of the Korean Alphabet"
     },
     {
       type: "duration",

@@ -14,7 +14,7 @@ export default {
     },
     {
       type: "duration",
-      text: "2019 Spring — Present"
+      text: "2019 Spring - Present"
     },
     {
       type: "technology",

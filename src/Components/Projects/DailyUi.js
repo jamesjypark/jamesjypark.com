@@ -4,7 +4,7 @@ export default {
   title: "Daily UI",
   duration: "2018 Fall - 2019 Summer",
   technology: "Sketch, InVision Studio, Adobe Animate",
-  summary: ["100 Daily UI Challenges"],
+  summary: ["100 Daily UI Challenges - Introduction to User Interface Design"],
   page: [
     {
       type: "title",
