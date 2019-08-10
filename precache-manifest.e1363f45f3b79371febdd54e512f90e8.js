@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec5241dd3edc184d68879f5ca5021c3a",
+    "revision": "543321b81f14abff0ba333ed076972d3",
     "url": "/index.html"
   },
   {
-    "revision": "f0e8c426654c67ed785c",
-    "url": "/static/css/main.06dc0f51.chunk.css"
+    "revision": "854407c02e6828b72a71",
+    "url": "/static/css/main.8ddd5243.chunk.css"
   },
   {
-    "revision": "6376058e409be65eb468",
-    "url": "/static/js/2.d2a3d82a.chunk.js"
+    "revision": "319797f07638aef36b97",
+    "url": "/static/js/2.5a82edfa.chunk.js"
   },
   {
-    "revision": "f0e8c426654c67ed785c",
-    "url": "/static/js/main.31b5171c.chunk.js"
+    "revision": "854407c02e6828b72a71",
+    "url": "/static/js/main.c1b171cd.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/daily-ui1.08146a22.png"
   },
   {
-    "revision": "6c687d6649a1be6393d27fa022bbcf96",
-    "url": "/static/media/daily-ui2.6c687d66.png"
+    "revision": "dca930647832dc712fc141aa54cd6f17",
+    "url": "/static/media/daily-ui2.dca93064.png"
   },
   {
     "revision": "f6b6319ab69311ea3df70d4900571b7e",
@@ -64,16 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hangul.517361cb.png"
   },
   {
-    "revision": "62f50365ac6ed5407606eac561a0779b",
-    "url": "/static/media/hangul1.62f50365.png"
+    "revision": "1eab16675dc4f4e4c72b58db2f6b233a",
+    "url": "/static/media/hangul1.1eab1667.jpg"
   },
   {
     "revision": "34ce37bed6961ce90083e1b5c819e980",
     "url": "/static/media/hangul10.34ce37be.jpg"
-  },
-  {
-    "revision": "1eab16675dc4f4e4c72b58db2f6b233a",
-    "url": "/static/media/hangul11.1eab1667.jpg"
   },
   {
     "revision": "3f6e803d58ed6c21822e55488064f1bf",
@@ -140,7 +136,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/realtime2.3d5db3cb.gif"
   },
   {
-    "revision": "38bdd660ceb5ef8909d00d82dc1532d2",
-    "url": "/static/media/realtime3.38bdd660.png"
+    "revision": "dfe0297be1d039443926e58bddfe26e4",
+    "url": "/static/media/realtime3.dfe0297b.png"
   }
 ]);
