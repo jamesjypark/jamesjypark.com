@@ -24,7 +24,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul1.png")
+      address: require("../../assets/hangul1.jpg")
     },
     {
       type: "subheader",
@@ -121,10 +121,6 @@ export default {
     {
       type: "paragraph",
       text: "and 3D-printed the CAD again using MakerBot printer."
-    },
-    {
-      type: "image",
-      address: require("../../assets/hangul11.jpg")
     },
     {
       type: "image",
