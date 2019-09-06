@@ -37,10 +37,6 @@ class Home extends React.Component {
           <div>Software Engineering Student at the</div>
           <strong>University of Victoria</strong>
         </div>
-        <div className="description basetext1 medium">
-          <div>Co-op Software Developer at</div>
-          <strong>PDFTron Systems</strong>
-        </div>
         <div className="links basetext1 medium">
           <a
             href="https://drive.google.com/file/d/1nIzqEAhsL7JihHlsJ68sqkV1hOSfO4Lb/view?usp=sharing"
