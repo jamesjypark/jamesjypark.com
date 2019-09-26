@@ -118,11 +118,24 @@ $mobile-content-width: 90vw;
   }
 }
 
+.subheader3 {
+  font-weight: bolder;
+  color: $light-grey;
+
+  @include desktop-and-tablet {
+    font-size: 25px;
+  }
+
+  @include mobile {
+    font-size: 15px;
+  }
+}
+
 .basetext1 {
   @include font;
 
   @include desktop-and-tablet {
-    font-size: 20px;
+    font-size: 23px;
   }
 
   @include mobile {
@@ -133,7 +146,7 @@ $mobile-content-width: 90vw;
 
 .basetext2 {
   @include font;
-  font-size: 16px;
+  font-size: 18px;
   color: $dark-grey;
 }
 

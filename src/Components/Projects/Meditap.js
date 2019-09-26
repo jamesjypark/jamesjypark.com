@@ -1,7 +1,9 @@
+import React from "react";
+
 export default {
   title: "Meditap",
   duration: "2019 Spring - Present",
-  technology: "React Native, Node, SQLite3 on AWS EC2, Firebase",
+  technology: "React Native, Node, Firebase",
   summary: [
     "Anticipated project launch in Nigeria in August 2019",
     "Project acquired by the Canadian Network for International Surgery",
@@ -18,7 +20,7 @@ export default {
     },
     {
       type: "technology",
-      text: "React Native, Node, SQLite3 on AWS EC2, Firebase"
+      text: "React Native, Node, Firebase"
     },
     {
       type: "image",
@@ -63,32 +65,74 @@ export default {
     {
       type: "paragraph",
       text:
-        "In May and June 2019, Meditap successfully completed beta-testing in Kenya and Tanzania. The app is currently expecting to launch in August 2019 in Nigeria."
+        "In May and June 2019, Meditap successfully completed beta-testing in Kenya and Tanzania. The app is currently under evaluation in Nigeria."
     },
     {
       type: "subheader",
-      text: "My Role"
+      text: "Technical Overview"
     },
     {
       type: "paragraph",
       text:
-        "As the only software developer in the team, I architected and implemented the React Native app using NDEF (near-field data exchange format) to encrypt, store and modify data on NFC tags. I also implemented a Node server with Express and SQLite3 on AWS EC2 to store patient information on the database. "
+        "Meditap is composed of three major components: mobile application, web application, and Firebase backend server."
     },
     {
       type: "paragraph",
       text:
-        "Throughout the project, I spent countless nights refactoring (completely breaking), and modifying the application according to the numerous feedback I received from Dr. Lett and medical professionals. The experience, despite being moderately painful, allowed me to deeply understand and appreciate design patterns that are required to build a robust and flexible program."
+        "As the only software developer in the project, I learned to develop in different platforms and learn how they all come together to create a coherent solution."
+    },
+    {
+      type: "subheader2",
+      text: "Mobile Application"
+    },
+    {
+      type: "paragraph",
+      text:
+        "Meditap started as a mobile application, and it continues to remain very much a mobile-oriented project. The app is built with React Native, using NDEF (NFC Data Exchange Format) to write patient medical information on NFC tags."
+    },
+    { type: "video", url: "https://www.youtube.com/embed/Sbqj1mVkeT8" },
+    {
+      type: "paragraph",
+      text:
+        "Because the project started as a hacky prototype for a 24-hour hackathon, the process of modularizing the code and implementing a robust structure was challenging. However, I was able to modularize functionalities and build screens from reusable components, making the app both flexible and robust."
+    },
+    {
+      type: "paragraph-link",
+      text: [
+        "One of the challenges I ran into while storing patient information on NFC tags was that the memory size of NFC was too small to store the data. After comparing different compression algorithms, I implemented a variation of the ",
+        <a
+          href="https://en.wikipedia.org/wiki/Huffman_coding"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          Huffman coding
+        </a>,
+        " by creating a ",
+        <a
+          href="https://www.npmjs.com/package/generate-variable"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
+        >
+          simple npm library
+        </a>,
+        " and mapping patient object to a known list of constants. I was able to successfully overcome the issue and implement a well functioning application."
+      ]
+    },
+    {
+      type: "subheader2",
+      text: "Web Application and Firebase Backend"
+    },
+    {
+      type: "paragraph",
+      text:
+        "An important aspect of the CMDS project is to analyze the information collected from the mobile device and conduct a study to further improve the project. In order to allow healthcare workers to easily access the data, I developed a data viewer using React web application connected to Firebase. "
+    },
+    {
+      type: "paragraph",
+      text:
+        "Throughout the project, I spent countless nights modifying (and completely breaking) the application from the feedback I received from Dr. Lett and medical professionals. The experience, despite being moderately painful, allowed me to deeply understand and appreciate design patterns that are required to build a robust and flexible program."
     }
-    // {
-    //   type: "list",
-    //   title: "team",
-    //   list: [
-    //     "Brian Cheng - Designer",
-    //     "Adelia Jacobs - Dietetics",
-    //     "Vishu Karthik - Medical",
-    //     "Azzra Mangalji - Medical",
-    //     "James Park - Software Engineering"
-    //   ]
-    // }
   ]
 };

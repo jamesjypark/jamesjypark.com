@@ -40,6 +40,12 @@ class ProjectPage extends React.Component {
               <div className="subheader2">{item.text}</div>
             </div>
           );
+        case "subheader2":
+          return (
+            <div className="margin-container left">
+              <div className="subheader3">{item.text}</div>
+            </div>
+          );
         case "paragraph":
           return (
             <div className="paragraph-container">
@@ -50,6 +56,17 @@ class ProjectPage extends React.Component {
           return <div className="paragraph-container">{item.text}</div>;
         case "image":
           return <img src={item.address} />;
+        case "video":
+          return (
+            <iframe
+              className="video"
+              src={item.url}
+              frameBorder="0"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              title="video"
+            />
+          );
       }
     });
   };
