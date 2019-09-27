@@ -87,8 +87,6 @@ $mobile-content-width: 90vw;
   @include tablet {
     font-size: 50px;
   }
-  //   margin-top: 1vh;
-  //   margin-bottom: 5vh;
 }
 
 .subheader1 {
@@ -127,7 +125,7 @@ $mobile-content-width: 90vw;
   }
 
   @include mobile {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
@@ -152,7 +150,7 @@ $mobile-content-width: 90vw;
 
 .basetext3 {
   @include font;
-  font-size: 13px;
+  font-size: 15px;
   color: $medium-grey;
 }
 

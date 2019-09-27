@@ -3,7 +3,7 @@ import React from "react";
 export default {
   title: "Meditap",
   duration: "2019 Spring - Present",
-  technology: "React Native, Node, Firebase",
+  technology: "React Native, React, NFC, Firebase",
   summary: [
     "Anticipated project launch in Nigeria in August 2019",
     "Project acquired by the Canadian Network for International Surgery",
@@ -20,7 +20,7 @@ export default {
     },
     {
       type: "technology",
-      text: "React Native, Node, Firebase"
+      text: "React Native, React, NFC, Firebase"
     },
     {
       type: "image",
@@ -74,12 +74,7 @@ export default {
     {
       type: "paragraph",
       text:
-        "Meditap is composed of three major components: mobile application, web application, and Firebase backend server."
-    },
-    {
-      type: "paragraph",
-      text:
-        "As the only software developer in the project, I learned to develop in different platforms and learn how they all come together to create a coherent solution."
+        "Meditap is composed of three major components: mobile application, web application, and Firebase backend server. As the only software developer in the project, I learned to develop in different platforms and weave them together to create one coherent system."
     },
     {
       type: "subheader2",
@@ -94,12 +89,12 @@ export default {
     {
       type: "paragraph",
       text:
-        "Because the project started as a hacky prototype for a 24-hour hackathon, the process of modularizing the code and implementing a robust structure was challenging. However, I was able to modularize functionalities and build screens from reusable components, making the app both flexible and robust."
+        "Because the project started as a prototype for a 24-hour hackathon, the process of modularizing the code and implementing a robust structure was challenging. However, I was able to encapsulate independent functionalities and structure the app from reusable components; creating a flexible and robust program."
     },
     {
       type: "paragraph-link",
       text: [
-        "One of the challenges I ran into while storing patient information on NFC tags was that the memory size of NFC was too small to store the data. After comparing different compression algorithms, I implemented a variation of the ",
+        "One of the challenges I ran into while storing patient information on NFC tags was that the memory size was insufficient to store patient data. After comparing different compression algorithms, I implemented a variation of the ",
         <a
           href="https://en.wikipedia.org/wiki/Huffman_coding"
           target="_blank"
@@ -117,7 +112,7 @@ export default {
         >
           simple npm library
         </a>,
-        " and mapping patient object to a known list of constants. I was able to successfully overcome the issue and implement a well functioning application."
+        " and mapping patient object to a known list of constants. I was able to successfully compress the data and store data on NFC tags."
       ]
     },
     {
@@ -127,12 +122,12 @@ export default {
     {
       type: "paragraph",
       text:
-        "An important aspect of the CMDS project is to analyze the information collected from the mobile device and conduct a study to further improve the project. In order to allow healthcare workers to easily access the data, I developed a data viewer using React web application connected to Firebase. "
+        "Another important aspect of the CMDS project is to analyze the information collected from the mobile device and conduct a study to further improve the project. In order to allow healthcare workers to easily access the data, I developed a data viewer using React web application connected to Firebase. "
     },
     {
       type: "paragraph",
       text:
-        "Throughout the project, I spent countless nights modifying (and completely breaking) the application from the feedback I received from Dr. Lett and medical professionals. The experience, despite being moderately painful, allowed me to deeply understand and appreciate design patterns that are required to build a robust and flexible program."
+        "Throughout the project, I spent countless nights modifying (and completely breaking) the application according to the feedback I received from Dr. Lett and medical professionals. The experience, despite being moderately painful, allowed me to deeply understand and appreciate design patterns that goes inside building a robust and flexible program."
     }
   ]
 };
