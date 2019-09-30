@@ -22,10 +22,7 @@ function DesignList() {
       <NavLink className="link" to="/design/hangul-printing">
         <ProjectCard image={HangulLogo} {...HangulPrinting} />
       </NavLink>
-
-      {/* <NavLink className="link" to="/design/autonomous-rov">
-        <ProjectCard image={DailyUiLogo} {...DailyUi} />
-      </NavLink> */}
+      <div className="Spacer" style={{ height: "100px" }}></div>
     </div>
   );
 }

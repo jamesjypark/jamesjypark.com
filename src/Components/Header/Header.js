@@ -7,7 +7,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="Header">
-        <NavLink to="/" activeClassName="link">
+        <NavLink to="/" activeClassName="">
           <img src={logo} />
         </NavLink>
         <div className="links">
