@@ -5,7 +5,7 @@ export default {
   duration: "2019 Spring - Present",
   technology: "React Native, React, NFC, Firebase",
   summary: [
-    "Anticipated project launch in Nigeria in August 2019",
+    "Anticipated project launch in Nigeria in Early 2020",
     "Project acquired by the Canadian Network for International Surgery",
     "Joule Healthcare Innovation Award for Biggest Potential Impact"
   ],

@@ -3,7 +3,7 @@ export default {
   duration: "2019 Summer",
   technology: "WebSocket, Node with Express, SQLite 3, WebViewer",
   summary: [
-    "Development Project at PDFTron Systems",
+    "Internship Project at PDFTron Systems",
     "PDFTron Open-source Project"
   ],
   page: [
