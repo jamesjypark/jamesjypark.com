@@ -11,7 +11,7 @@ class ProjectPage extends React.Component {
         case "title":
           return (
             <div className="title-container">
-              <div className="subheader1">{item.text}</div>
+              <div className="subheader1 fade-in">{item.text}</div>
             </div>
           );
         case "duration":
