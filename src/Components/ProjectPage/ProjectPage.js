@@ -1,6 +1,4 @@
 import React from "react";
-import Markdown from "markdown-to-jsx";
-import { render } from "react-dom";
 
 import "./ProjectPage.scss";
 
@@ -8,21 +6,23 @@ class ProjectPage extends React.Component {
   renderPage = page => {
     return page.map(item => {
       switch (item.type) {
+        case "header-image":
+          return <div className="header-image" />;
         case "title":
           return (
-            <div className="title-container">
+            <div className="title-container left">
               <div className="subheader1 fade-in">{item.text}</div>
             </div>
           );
         case "duration":
           return (
-            <div className="margin-container">
+            <div className="margin-containe left">
               <div className="basetext2 bold">{item.text}</div>
             </div>
           );
         case "technology":
           return (
-            <div className="margin-container">
+            <div className="margin-container left">
               <div className="basetext2 medium technology">{item.text}</div>
             </div>
           );

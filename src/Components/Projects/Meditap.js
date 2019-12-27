@@ -11,8 +11,12 @@ export default {
   ],
   page: [
     {
+      type: "header-image",
+      text: "Hello"
+    },
+    {
       type: "title",
-      text: "Meditap – Medical Records Through NFC Technology"
+      text: "Meditap"
     },
     {
       type: "duration",
@@ -22,10 +26,10 @@ export default {
       type: "technology",
       text: "React Native, React, NFC, Firebase"
     },
-    {
-      type: "image",
-      address: require("../../assets/meditap1.png")
-    },
+    // {
+    //   type: "image",
+    //   address: require("../../assets/meditap1.png")
+    // },
     {
       type: "paragraph",
       text:

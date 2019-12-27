@@ -9,9 +9,24 @@
       margin-bottom: 40px;
     }
   }
+  .header-image {
+    position: absolute;
+    top: 0;
+    left: 27vw;
+    width: 90vw;
+    z-index: -1;
+    height: 100vh;
+    margin-top: 0;
+    background-color: lightblue;
+  }
   .title-container {
+    .subheader1 {
+      @include desktop-and-tablet() {
+        font-size: 80px;
+      }
+    }
     width: 100%;
-    padding-top: 40px;
+    padding-top: 80vh;
     padding-bottom: 40px;
     box-sizing: border-box;
   }
