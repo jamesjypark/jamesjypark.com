@@ -9,8 +9,8 @@ import DailyUi from "../Projects/DailyUi";
 import HangulPrinting from "../Projects/HangulPrinting";
 import AutonomousRov from "../Projects/AutonomousRov/AutonomousRov";
 
-import DailyUiLogo from "../../assets/daily-ui.png";
-import HangulLogo from "../../assets/hangul.png";
+import DailyUiLogo from "../../assets/daily-ui/daily-ui.png";
+import HangulLogo from "../../assets/hangul/hangul.png";
 
 function DesignList() {
   return (

@@ -12,7 +12,7 @@ export default {
   page: [
     {
       type: "header-image",
-      text: "Hello"
+      text: "meditap"
     },
     {
       type: "title",
@@ -26,10 +26,6 @@ export default {
       type: "technology",
       text: "React Native, React, NFC, Firebase"
     },
-    // {
-    //   type: "image",
-    //   address: require("../../assets/meditap1.png")
-    // },
     {
       type: "paragraph",
       text:
@@ -46,7 +42,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/meditap2.jpg")
+      address: require("../../assets/meditap/meditap2.jpg")
     },
     {
       type: "subheader",
@@ -59,7 +55,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/meditap3.png")
+      address: require("../../assets/meditap/meditap3.png")
     },
     {
       type: "paragraph",

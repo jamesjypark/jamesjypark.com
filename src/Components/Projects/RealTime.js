@@ -21,7 +21,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/realtime2.gif")
+      address: require("../../assets/realtime/realtime2.gif")
     },
     {
       type: "paragraph",
@@ -44,7 +44,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/realtime3.png")
+      address: require("../../assets/realtime/realtime3.png")
     },
     {
       type: "paragraph",

@@ -24,7 +24,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul1.jpg")
+      address: require("../../assets/hangul/hangul1.jpg")
     },
     {
       type: "subheader",
@@ -66,7 +66,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul2.png")
+      address: require("../../assets/hangul/hangul2.png")
     },
     {
       type: "paragraph",
@@ -75,11 +75,11 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul3.png")
+      address: require("../../assets/hangul/hangul3.png")
     },
     {
       type: "image",
-      address: require("../../assets/hangul4.png")
+      address: require("../../assets/hangul/hangul4.png")
     },
     {
       type: "paragraph",
@@ -88,11 +88,11 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul5.jpg")
+      address: require("../../assets/hangul/hangul5.jpg")
     },
     {
       type: "image",
-      address: require("../../assets/hangul6.jpg")
+      address: require("../../assets/hangul/hangul6.jpg")
     },
     {
       type: "subheader",
@@ -104,7 +104,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul7.png")
+      address: require("../../assets/hangul/hangul7.png")
     },
     {
       type: "paragraph",
@@ -112,11 +112,11 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul8.png")
+      address: require("../../assets/hangul/hangul8.png")
     },
     {
       type: "image",
-      address: require("../../assets/hangul9.png")
+      address: require("../../assets/hangul/hangul9.png")
     },
     {
       type: "paragraph",
@@ -124,7 +124,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/hangul10.jpg")
+      address: require("../../assets/hangul/hangul10.jpg")
     }
   ]
 };

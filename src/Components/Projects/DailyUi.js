@@ -25,7 +25,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/daily-ui1.png")
+      address: require("../../assets/daily-ui/daily-ui1.png")
     },
     {
       type: "subheader",
@@ -43,7 +43,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/daily-ui2.png")
+      address: require("../../assets/daily-ui/daily-ui2.png")
     },
     {
       type: "paragraph",
@@ -57,7 +57,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/daily-ui3.png")
+      address: require("../../assets/daily-ui/daily-ui3.png")
     },
     {
       type: "paragraph",
@@ -71,7 +71,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/daily-ui4.png")
+      address: require("../../assets/daily-ui/daily-ui4.png")
     },
     {
       type: "paragraph-link",

@@ -3,11 +3,26 @@ import React from "react";
 import "./ProjectPage.scss";
 
 class ProjectPage extends React.Component {
+  // render custom header content
+  getHeaderContent = text => {
+    switch (text) {
+      case "meditap":
+        return <div>Meditap</div>;
+      default:
+        return <div>default</div>;
+    }
+  };
+
+  // render page contents
   renderPage = page => {
     return page.map(item => {
       switch (item.type) {
         case "header-image":
-          return <div className="header-image" />;
+          return (
+            <div className="header-image">
+              {this.getHeaderContent(item.text)}
+            </div>
+          );
         case "title":
           return (
             <div className="title-container left">

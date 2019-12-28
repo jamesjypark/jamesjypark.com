@@ -24,7 +24,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/askey1.gif")
+      address: require("../../assets/askey/askey1.gif")
     },
     {
       type: "paragraph",
@@ -66,7 +66,7 @@ export default {
     },
     {
       type: "image",
-      address: require("../../assets/askey2.jpg")
+      address: require("../../assets/askey/askey2.jpg")
     },
     {
       type: "paragraph-link",

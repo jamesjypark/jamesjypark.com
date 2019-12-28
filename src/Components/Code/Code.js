@@ -8,9 +8,9 @@ import Meditap from "../Projects/Meditap";
 import Askey from "../Projects/Askey";
 import RealTime from "../Projects/RealTime";
 
-import MeditapLogo from "../../assets/meditap.svg";
-import AskeyLogo from "../../assets/askey.svg";
-import RealTimeLogo from "../../assets/realtime.png";
+import MeditapLogo from "../../assets/meditap/meditap.svg";
+import AskeyLogo from "../../assets/askey/askey.svg";
+import RealTimeLogo from "../../assets/realtime/realtime.png";
 
 import "./Code.scss";
 
