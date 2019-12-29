@@ -9,16 +9,7 @@
       margin-bottom: 40px;
     }
   }
-  .header-image {
-    position: absolute;
-    top: 0;
-    left: 27vw;
-    width: 90vw;
-    z-index: -1;
-    height: 100vh;
-    margin-top: 0;
-    background-color: lightblue;
-  }
+
   .title-container {
     .subheader1 {
       @include desktop-and-tablet() {
@@ -56,5 +47,40 @@
     height: 50vh;
     margin-top: 3vh;
     margin-bottom: 3vh;
+  }
+
+  .header-image {
+    position: absolute;
+    top: 0;
+    right: 0vw;
+    width: 73vw;
+    z-index: -1;
+    height: 100vh;
+    margin: 0;
+    background-color: #c5eaf2;
+    overflow: hidden;
+    perspective: 1000px;
+  }
+
+  // header-image specific styling
+  .meditap1 {
+    position: fixed;
+    width: 30vw;
+    right: 10vw;
+    height: auto;
+    opacity: 0;
+    // animation-name: spinner;
+    // animation-timing-function: linear;
+    // animation-iteration-count: infinite;
+    // animation-duration: 2s;
+  }
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate3D(0, 0, 0, 35deg);
+  }
+  to {
+    transform: rotate3D(1, -0.3, 0, 60deg);
   }
 }
