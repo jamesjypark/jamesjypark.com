@@ -2,23 +2,20 @@ import React from "react";
 
 import "./ProjectPage.scss";
 
-import meditap1 from "../../assets/meditap/meditap1.png";
-
 class ProjectPage extends React.Component {
   constructor() {
     super();
     this.meditap1 = React.createRef();
     this.state = {
-      topDistance: 200
+      topDistance: 150
     };
   }
 
   componentDidMount() {
     window.addEventListener("scroll", () => {
       this.setState({
-        topDistance: 200 + window.pageYOffset
+        topDistance: 150 + window.pageYOffset
       });
-      console.log("top distance is ", 200 - window.pageYOffset);
     });
   }
 
@@ -33,8 +30,12 @@ class ProjectPage extends React.Component {
             <img
               ref={this.meditap1}
               style={{ top: this.state.topDistance }}
-              className="meditap1 fade-in-2s"
-              src={meditap1}
+              className="meditap1 fade-in delay forwards"
+              src={require("../../assets/meditap/meditap1.png")}
+            />
+            <img
+              className="meditap-background"
+              src={require("../../assets/meditap/meditap-background.png")}
             />
           </div>
         );
@@ -56,7 +57,7 @@ class ProjectPage extends React.Component {
         case "title":
           return (
             <div className="title-container left">
-              <div className="subheader1 fade-in-1s">{item.text}</div>
+              <div className="subheader1 fade-in">{item.text}</div>
             </div>
           );
         case "duration":

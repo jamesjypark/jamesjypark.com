@@ -66,21 +66,17 @@
   .meditap1 {
     position: fixed;
     width: 30vw;
-    right: 10vw;
+    right: 5vw;
     height: auto;
+    z-index: -2;
     opacity: 0;
-    // animation-name: spinner;
-    // animation-timing-function: linear;
-    // animation-iteration-count: infinite;
-    // animation-duration: 2s;
   }
-}
 
-@keyframes spinner {
-  from {
-    transform: rotate3D(0, 0, 0, 35deg);
-  }
-  to {
-    transform: rotate3D(1, -0.3, 0, 60deg);
+  .meditap-background {
+    position: absolute;
+    width: 100%;
+    left: 30%;
+    top: 0;
+    z-index: -3;
   }
 }

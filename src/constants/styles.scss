@@ -166,16 +166,17 @@ $mobile-content-width: 90vw;
   text-align: center;
 }
 
-.fade-in-1s {
+.fade-in {
   animation-name: fadeIn;
   animation-duration: 1s;
 }
 
-.fade-in-2s {
-  animation-name: fadeIn;
-  animation-fill-mode: forwards;
+.delay {
   animation-delay: 0.5s;
-  animation-duration: 1s;
+}
+
+.forwards {
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
