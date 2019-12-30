@@ -11,8 +11,12 @@ export default {
   ],
   page: [
     {
+      type: "header-image",
+      text: "askey"
+    },
+    {
       type: "title",
-      text: "ASKEY – Efficient Video Calling with ASCII Characters"
+      text: "ASKEY"
     },
     {
       type: "duration",

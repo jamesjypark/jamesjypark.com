@@ -19,8 +19,6 @@ class ProjectPage extends React.Component {
     });
   }
 
-  updateHeaderContentPosition() {}
-
   // render custom header content
   getHeaderContent = text => {
     switch (text) {
@@ -50,7 +48,7 @@ class ProjectPage extends React.Component {
       switch (item.type) {
         case "header-image":
           return (
-            <div className="header-image">
+            <div className="header-image hide-in-mobile">
               {this.getHeaderContent(item.text)}
             </div>
           );
@@ -101,7 +99,18 @@ class ProjectPage extends React.Component {
         case "paragraph-link":
           return <div className="paragraph-container">{item.text}</div>;
         case "image":
-          return <img src={item.address} />;
+          return (
+            <img
+              className={
+                item.hidden
+                  ? item.hidden.reduce(
+                      (a, b) => `hide-in-${a}` + ` hide-in-${b}`
+                    )
+                  : ""
+              }
+              src={item.address}
+            />
+          );
         case "video":
           return (
             <iframe

@@ -17,7 +17,13 @@
       }
     }
     width: 100%;
-    padding-top: 80vh;
+    // top space for header image
+    @include desktop-and-tablet() {
+      padding-top: 80vh;
+    }
+    @include mobile() {
+      padding-top: 40px;
+    }
     padding-bottom: 40px;
     box-sizing: border-box;
   }

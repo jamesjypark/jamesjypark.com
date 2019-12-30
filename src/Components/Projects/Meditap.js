@@ -27,6 +27,11 @@ export default {
       text: "React Native, React, NFC, Firebase"
     },
     {
+      type: "image",
+      address: require("../../assets/meditap/meditap4.png"),
+      hidden: ["desktop", "tablet"]
+    },
+    {
       type: "paragraph",
       text:
         "Meditap is a cross-platform application leveraging NFC (near-field communication) technology to make medical records accessible for marginalized populations. Meditap was acquired by the Canadian Network for International Surgery in June 2019 and is currently under development as part of the Community Maternal Danger Score project aimed at reducing maternal mortality in Nigeria."
