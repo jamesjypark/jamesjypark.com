@@ -39,6 +39,14 @@ $mobile-content-width: 90vw;
   }
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
 .hide-in-desktop {
   @include desktop {
     display: none;

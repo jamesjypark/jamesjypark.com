@@ -27,13 +27,13 @@ export default {
       text: "React, Sketch, FFmpeg, TTYD"
     },
     {
-      type: "image",
-      address: require("../../assets/askey/askey1.gif")
-    },
-    {
       type: "paragraph",
       text:
         "ASKEY is an ASCII-representation video calling web application. By converting image frames into ASCII characters resembling the image, the application provides key features of video calling while providing a stable video calling experience for users in low bandwidth environments. "
+    },
+    {
+      type: "image",
+      address: require("../../assets/askey/askey1.gif")
     },
     {
       type: "subheader",

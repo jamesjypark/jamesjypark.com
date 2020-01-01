@@ -63,26 +63,40 @@
     z-index: -1;
     height: 100vh;
     margin: 0;
-    background-color: #c5eaf2;
     overflow: hidden;
     perspective: 1000px;
   }
 
   // header-image specific styling
+
+  // meditap
+  .meditap {
+    background-color: #c5eaf2;
+  }
   .meditap1 {
     position: fixed;
     width: 30vw;
     right: 5vw;
     height: auto;
     z-index: -2;
-    opacity: 0;
   }
-
   .meditap-background {
     position: absolute;
     width: 100%;
     left: 30%;
     top: 0;
     z-index: -3;
+  }
+
+  .askey1 {
+    position: fixed;
+    width: 60vw;
+    right: 5vw;
+    height: auto;
+    z-index: -2;
+  }
+
+  .askey {
+    background-color: #e3f0ff;
   }
 }

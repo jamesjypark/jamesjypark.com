@@ -24,16 +24,31 @@ class ProjectPage extends React.Component {
     switch (text) {
       case "meditap":
         return (
-          <div>
+          <div className="header-image meditap hide-in-mobile">
             <img
               ref={this.meditap1}
               style={{ top: this.state.topDistance }}
-              className="meditap1 fade-in delay forwards"
+              className="meditap1 hidden fade-in delay forwards"
               src={require("../../assets/meditap/meditap1.png")}
             />
             <img
               className="meditap-background"
               src={require("../../assets/meditap/meditap-background.png")}
+            />
+          </div>
+        );
+      case "askey":
+        return (
+          <div className="header-image askey hide-in-mobile">
+            <img
+              ref={this.meditap1}
+              style={{ top: this.state.topDistance }}
+              className="askey1 hidden fade-in delay forwards"
+              src={require("../../assets/askey/askey1.png")}
+            />
+            <img
+              className="askey-background"
+              src={require("../../assets/askey/askey-background.png")}
             />
           </div>
         );
@@ -48,9 +63,9 @@ class ProjectPage extends React.Component {
       switch (item.type) {
         case "header-image":
           return (
-            <div className="header-image hide-in-mobile">
-              {this.getHeaderContent(item.text)}
-            </div>
+            // <div className="header-image hide-in-mobile">
+            <div>{this.getHeaderContent(item.text)}</div>
+            // </div>
           );
         case "title":
           return (

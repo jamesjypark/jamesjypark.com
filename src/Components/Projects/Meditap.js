@@ -59,13 +59,13 @@ export default {
         "After winning the Joule Innovation Award for Biggest Potential Impact and being named Medical Device Design Centre’s Award Finalist, Meditap has been acquired by the Canadian Network for International Surgery (CNIS) in June 2019."
     },
     {
-      type: "image",
-      address: require("../../assets/meditap/meditap3.png")
-    },
-    {
       type: "paragraph",
       text:
         "CNIS is an international non-governmental organization focusing on improvements in health and safety in developing nations. I have been very closely working with Dr. Ronald Lett, the CEO of CNIS and adjunct professor at UBC and McGill, to construct an intuitive and efficient application that can save lives."
+    },
+    {
+      type: "image",
+      address: require("../../assets/meditap/meditap3.png")
     },
     {
       type: "paragraph",
