@@ -11,21 +11,26 @@
   }
 
   .title-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
     .subheader1 {
       @include desktop-and-tablet() {
         font-size: 80px;
       }
     }
-    width: 100%;
+    height: 90vh;
+    width: 80%;
     // top space for header image
     @include desktop-and-tablet() {
-      padding-top: 80vh;
+      // padding-top: 80vh;
+      // padding-top: 40vh;
     }
     @include mobile() {
-      padding-top: 40px;
+      // padding-top: 40px;
     }
-    padding-bottom: 40px;
-    box-sizing: border-box;
+    // padding-bottom: 40px;
+    // box-sizing: border-box;
   }
   .margin-container {
     padding-top: 0.6%;
@@ -88,6 +93,7 @@
     z-index: -3;
   }
 
+  // askey
   .askey1 {
     position: fixed;
     width: 60vw;
@@ -95,8 +101,11 @@
     height: auto;
     z-index: -2;
   }
-
   .askey {
     background-color: #e3f0ff;
+  }
+
+  .realtime {
+    background-color: #bbecff;
   }
 }

@@ -52,6 +52,15 @@ class ProjectPage extends React.Component {
             />
           </div>
         );
+      case "realtime":
+        return (
+          <div className="header-image realtime hide-in-mobile">
+            <img
+              className="askey-background"
+              src={require("../../assets/realtime/realtime-background.png")}
+            />
+          </div>
+        );
       default:
         return <div>default</div>;
     }
@@ -62,11 +71,7 @@ class ProjectPage extends React.Component {
     return page.map(item => {
       switch (item.type) {
         case "header-image":
-          return (
-            // <div className="header-image hide-in-mobile">
-            <div>{this.getHeaderContent(item.text)}</div>
-            // </div>
-          );
+          return <div>{this.getHeaderContent(item.text)}</div>;
         case "title":
           return (
             <div className="title-container left">

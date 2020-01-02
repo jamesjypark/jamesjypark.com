@@ -8,8 +8,12 @@ export default {
   ],
   page: [
     {
+      type: "header-image",
+      text: "realtime"
+    },
+    {
       type: "title",
-      text: "Real-time Collaboration — Instant Collaborative Document Editing"
+      text: "Real-time Collaboration"
     },
     {
       type: "duration",
@@ -20,13 +24,13 @@ export default {
       text: "WebSocket, Node with Express, SQLite 3, WebViewer"
     },
     {
-      type: "image",
-      address: require("../../assets/realtime/realtime2.gif")
-    },
-    {
       type: "paragraph",
       text:
         "Real-time collaboration is a feature that allows multiple users to simultaneously edit PDF documents in real time. As my final project during my first co-op term at PDFTron Systems, I implemented real-time collaboration feature on WebViewer using a SQLite3 database running on Node server connected to WebSocket."
+    },
+    {
+      type: "image",
+      address: require("../../assets/realtime/realtime2.gif")
     },
     {
       type: "subheader",
