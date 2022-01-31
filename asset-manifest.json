@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ce96c338.chunk.css",
-    "main.js": "/static/js/main.b3061bc6.chunk.js",
-    "main.js.map": "/static/js/main.b3061bc6.chunk.js.map",
+    "main.js": "/static/js/main.77402af9.chunk.js",
+    "main.js.map": "/static/js/main.77402af9.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.5a82edfa.chunk.js": "/static/js/2.5a82edfa.chunk.js",
     "static/js/2.5a82edfa.chunk.js.map": "/static/js/2.5a82edfa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a59562c6fd39f748cf11fd97e80552b6.js": "/precache-manifest.a59562c6fd39f748cf11fd97e80552b6.js",
+    "precache-manifest.cfe625fd180b07087463153fa3582d33.js": "/precache-manifest.cfe625fd180b07087463153fa3582d33.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ce96c338.chunk.css.map": "/static/css/main.ce96c338.chunk.css.map",
     "static/media/askey.svg": "/static/media/askey.6ab9c2c4.svg",
@@ -37,7 +37,7 @@
     "static/media/meditap1.png": "/static/media/meditap1.9f5c3c7d.png",
     "static/media/meditap2.jpg": "/static/media/meditap2.4f444924.jpg",
     "static/media/meditap3.png": "/static/media/meditap3.eba1ddf0.png",
-    "static/media/portrait.png": "/static/media/portrait.45259adb.png",
+    "static/media/portrait.png": "/static/media/portrait.589a5e54.png",
     "static/media/realtime.png": "/static/media/realtime.f5993b09.png",
     "static/media/realtime2.gif": "/static/media/realtime2.3d5db3cb.gif",
     "static/media/realtime3.png": "/static/media/realtime3.dfe0297b.png"
