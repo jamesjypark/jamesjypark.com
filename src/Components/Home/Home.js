@@ -16,7 +16,7 @@ class Home extends React.Component {
     let image = this.portraitRef.current;
     new simpleParallax(image, {
       overflow: true,
-      orientation: "left"
+      orientation: "left",
     });
   };
   render() {
@@ -32,9 +32,9 @@ class Home extends React.Component {
           />
           <img src={Background} />
         </div>
-        <div className="subheader1">James Juyoung Park</div>
+        <div className="subheader1">James Park</div>
         <div className="description basetext1 medium">
-          <div>Software Engineering Student at the</div>
+          <div>Computer Science Graduate at the</div>
           <strong>University of Victoria</strong>
         </div>
         <div className="links basetext1 medium">
